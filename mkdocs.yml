@@ -1,0 +1,73 @@
+site_name: National PID recommendations for research - Sweden
+repo_url: https://github.com/snd-sweden/national-pid-recommendations-for-research/
+docs_dir: './pid/'
+copyright: '<a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
+
+theme:
+    name: windmill
+    language: en
+
+extra:
+    extra.article_nav_top: false
+    extra.article_nav_bottom: true
+    extra.history_buttons: false
+#    extra.logo: 'img/snd.svg'
+    extra.version: '0.0.1'
+
+plugins:
+    - search: {}
+    - bibtex:
+        bib_file: "refs.bib"
+        csl_file: "ieee.csl"
+        bib_by_default: true
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - footnotes
+
+nav:
+    - National PID recommendations for research: index.md
+    - What is a PID?: what-is-pid.md
+    - What is this and who is it for?: what-who.md
+#    - PID concepts:
+#        - Persistence: pid-concepts/persistence.md
+#        - Uniqueness: pid-concepts/uniqueness.md
+#        - Resolvability: pid-concepts/resolvability.md
+#        - Interpretability: pid-concepts/interpretability.md
+#        - Coverage: pid-concepts/coverage.md
+#        - Usage context and added value: pid-concepts/usage-context.md
+    - Landscape analysis:
+        - landscape-analysis/index.md
+        - Researchers & contributors: landscape-analysis/researchers-contributors.md
+        - Organisations: landscape-analysis/organisations.md
+        - Publications: landscape-analysis/publications.md
+        - Data: landscape-analysis/research-data.md
+        - Projects & activities: landscape-analysis/projects-activities.md
+        - Funding: landscape-analysis/funding.md
+        - Software & models: landscape-analysis/software-models.md
+        - Simulations: landscape-analysis/simulations.md
+        - Analyses: landscape-analysis/analyses.md
+        - Data repositories: landscape-analysis/data-repositories.md
+        - Research infrastructures: landscape-analysis/research-infrastructures.md
+        - Citations: landscape-analysis/citations.md
+        - Conferences: landscape-analysis/conferences.md
+        - Instruments & collection equipment: landscape-analysis/instruments.md
+        - Samples: landscape-analysis/samples.md
+        - Protocols: landscape-analysis/protocols.md
+        - Workflows: landscape-analysis/workflows.md
+        - Preregistrations: landscape-analysis/preregistrations.md
+        - Licenses: landscape-analysis/licenses.md
+        - Artefacts & finds: landscape-analysis/artefacts.md
+        - Monuments: landscape-analysis/monuments.md
+    - Recommendations: 
+        - recommendations/index.md
+    - Data on PIDs:
+        - data-on-pids/index.md
+        - DOI: data-on-pids/doi.md
+        - ROR ID: data-on-pids/ror.md
+    - PID actors in Sweden:
+        - Sunet: pid-actors-sweden/sunet.md
+        - The Royal Library (KB): pid-actors-sweden/kb.md
+        - Swedish National Data Service (SND): pid-actors-sweden/snd.md
+    - Definitions: definitions/index.md
