@@ -30,13 +30,14 @@ nav:
     - National PID recommendations for research: index.md
     - What is a PID?: what-is-pid.md
     - What is this and who is it for?: what-who.md
-#    - PID concepts:
+    - PID concepts:
 #        - Persistence: pid-concepts/persistence.md
 #        - Uniqueness: pid-concepts/uniqueness.md
 #        - Resolvability: pid-concepts/resolvability.md
 #        - Interpretability: pid-concepts/interpretability.md
 #        - Coverage: pid-concepts/coverage.md
 #        - Usage context and added value: pid-concepts/usage-context.md
+        - PID ecosystem: pid-concepts/pid-ecosystem.md
     - Landscape analysis:
         - landscape-analysis/index.md
         - Researchers & contributors: landscape-analysis/researchers-contributors.md
