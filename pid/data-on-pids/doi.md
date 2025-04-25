@@ -27,8 +27,9 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 | Standard                                                                                | **ISO 26324**                           | <https://www.iso.org/obp/ui/#iso:std:iso:26324> |
 | Documentation                                                                           | **DOI Handbook**                        | <https://doi.org/10.1000/182> |
 | Kernel metadata schema                                                                  | **DOI Kernel Schema**                   | <https://doi.org/10.1000/276> |
-| Wikipedia article                                                                 | **Digital object identifier**                   | <https://en.wikipedia.org/wiki/Digital_object_identifier> |
-| Wikidata Q-ID                                                                 | **Q25670**                   | <https://www.wikidata.org/wiki/Q25670> |
+| Wikipedia article                                                                       | **Digital object identifier**           | <https://en.wikipedia.org/wiki/Digital_object_identifier> |
+| Wikidata Q-ID                                                                           | **Q25670**                              | <https://www.wikidata.org/wiki/Q25670> |
+| Wikidata P-ID                                                                           | **P356**                                | <http://wikidata.org/wiki/Property:P356> |
 
 ## PID Ecosystem
 | Component                                                                                         | Name                              | URL                           |
