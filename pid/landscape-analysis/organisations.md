@@ -119,6 +119,6 @@ Because of legal requirements, the organisation number may serve as a fall-back 
 
 🟢 Active
 
-The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, the national library catalogue. In parallel, they also govern the Libris authority database used for unambiguous identification of works, individuals and organisations. The authority database is built upon the RDF-based BIBFRAME standard. Authority metadata is created by individual libraries and will populate VIAF entries after curation.
+The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, the national library catalogue. In parallel, they also govern the Libris authority file used for unambiguous identification of works, individuals and organisations. The authority file is built upon the RDF-based BIBFRAME standard. Authority metadata is created by individual libraries and will populate VIAF entries after curation.
 
-Research organisations and funders may be indexed as Agent entries in the Libris authority database, obtaining unique identifiers. Organisational Agents in the authority database are linked to ISNI and VIAF identifiers and may contain relations to subdivisions of the organisation. Entries may be interacted with through the web or by downloaded structured metadata files.
+Research organisations and funders may be indexed as Agent entries in the Libris authority file, obtaining unique identifiers. Organisational Agents in the authority file are linked to ISNI and VIAF identifiers and may contain relations to subdivisions of the organisation. Entries may be interacted with through the web or by downloaded structured metadata files.

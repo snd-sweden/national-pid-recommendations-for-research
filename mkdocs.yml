@@ -66,6 +66,7 @@ nav:
     - Data on PIDs:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
+        - Handle: data-on-pids/handle.md
         - ROR ID: data-on-pids/ror.md
     - PID actors in Sweden:
         - Sunet: pid-actors-sweden/sunet.md

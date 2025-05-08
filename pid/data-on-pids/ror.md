@@ -1,5 +1,7 @@
 # ROR ID
 
+_Last updated: 2025-05-08_
+
 ROR ID (Research Organization Registry ID) is a persistent identifier for organisations relating to research. These may be research-performing organisations such as universities or research institutes, research funders, research infrastructures, government agencies and other types of organisational entities that relate to the research process.
 
 ## Where to get started as a Swedish organisation?
@@ -17,7 +19,7 @@ ROR ID (Research Organization Registry ID) is a persistent identifier for organi
 | Based on other PID system(s)                                                            | **No**                                  ||
 | Example                                                                                 | **03zttf063**                           ||
 | Example with resolver                                                                   | <https://ror.org/03zttf063>             ||
-| Case insensitive                                                                        | **No**                                  ||
+| Case sensitive                                                                          | **Yes**                                 ||
 | General resolver                                                                        | <https://ror.org/>                      ||
 | May use custom resolver                                                                 | **Only with data dump cached locally**  ||
 | Accompanying metadata                                                                   | **Yes**                                 | As described in currently supported versions of the ROR Schema |

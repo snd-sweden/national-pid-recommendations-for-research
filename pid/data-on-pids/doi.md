@@ -1,5 +1,7 @@
 # DOI
 
+_Last updated: 2025-05-08_
+
 DOI is a wide-spread PID system commonly in use for digital objects in research such as journal articles, book chapters and datasets.  
 
 ## Where to get started as a Swedish organisation?
@@ -14,11 +16,11 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 | Full name                                                                               | **Digital Object Identifier**           ||
 | Abbreviated name                                                                        | **DOI**                                 ||
 | Intended use                                                                            | **Generic digital objects**             | Documents, file archives, datasets, etc. |
-| Based on other PID system(s)                                                            | **Handle System**                       ||
+| Based on other PID system(s)                                                            | **[Handle System](handle.md)**                       ||
 | Handle namespace                                                                        | **10**                                  ||
 | Example                                                                                 | **10.12345/abc-xyz**                    ||
 | Example with resolver                                                                   | <https://doi.org/10.12345/abc-xyz>      ||
-| Case insensitive                                                                        | **Yes**                                 ||
+| Case sensitive                                                                          | **No**                                  ||
 | General resolver #1                                                                     | <https://doi.org/>                      ||
 | General resolver #2                                                                     | <https://dx.doi.org/>                   ||
 | May use custom resolver                                                                 | **Yes**                                 ||
@@ -34,7 +36,7 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 ## PID Ecosystem
 | Component                                                                                         | Name                              | URL                           |
 | --------                                                                                          | -------                           | -------                       |
-| [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **Handle System**                 | <https://www.handle.net/>     |
+| [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **[Handle System](handle.md)**                 | <https://www.handle.net/>     |
 | [PID Authority](../pid-concepts/pid-ecosystem.md#authority)                                       | **DONA Foundation**               | <https://www.dona.net/>       |
 | [PID Standards Body](../pid-concepts/pid-ecosystem.md#standards-body)                             | **International Organization for Standardization** (ISO)  | <https://www.iso.org/>          |
 | [PID Multi-Primary Administrator](../pid-concepts/pid-ecosystem.md#multi-primary-administrator)   | **International DOI Foundation**  | <https://www.doi.org/>        |
