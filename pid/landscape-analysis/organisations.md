@@ -109,11 +109,15 @@ Since 2021, ROR has incorporated all entities formerly assigned a GRID ID, forma
 
 ### Swedish organisation number (organisationsnummer)
 
+🟢 Active
+
 In Sweden, a legal person such as a government agency, association or company should be identifiable using a Swedish organisation number (also called registration number, company registration number). This includes many organisational entities such as research-performing organisations and funders. The number is obtained through registering the organisation at the Swedish Companies Registration Office (_Bolagsverket_).
 
 Because of legal requirements, the organisation number may serve as a fall-back identifier for Swedish research organisations not yet having been assigned an international organisational PID for the research sector, such as ROR ID.
 
 ### Libris authority metadata
+
+🟢 Active
 
 The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, the national library catalogue. In parallel, they also govern the Libris authority database used for unambiguous identification of works, individuals and organisations. The authority database is built upon the RDF-based BIBFRAME standard. Authority metadata is created by individual libraries and will populate VIAF entries after curation.
 
