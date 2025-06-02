@@ -32,7 +32,7 @@ nav:
     - What is this and who is it for?: what-who.md
     - PID concepts:
         - Persistence: pid-concepts/persistence.md
-#        - Uniqueness: pid-concepts/uniqueness.md
+        - Uniqueness: pid-concepts/uniqueness.md
 #        - Resolvability: pid-concepts/resolvability.md
 #        - Interpretability: pid-concepts/interpretability.md
 #        - Coverage: pid-concepts/coverage.md
