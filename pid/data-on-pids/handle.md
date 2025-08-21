@@ -23,7 +23,7 @@ Many infrastructures build upon the Handle System, including several other PID s
 | Case sensitive                                                                          | **Yes (default)**                           | Implementation dependent |
 | General resolver                                                                        | <http://hdl.handle.net>                     ||
 | May use custom resolver                                                                 | **Yes**                                     | As part of a _Local Handle Service_ |
-| Accompanying metadata                                                                   | **No**                                      | Metadata should be delivered by the handle target if needed |
+| Accompanying metadata kernel                                                            | **No**                                      | Metadata should be delivered by the handle target if needed |
 | Inception                                                                               | **1994**                                    ||
 | Standard                                                                                | **RFC 3650**                                | <https://doi.org/10.17487%2FRFC3650> |
 | Standard                                                                                | **RFC 3651**                                | <https://doi.org/10.17487%2FRFC3651> |

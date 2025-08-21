@@ -24,7 +24,7 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 | General resolver #1                                                                     | <https://doi.org/>                      ||
 | General resolver #2                                                                     | <https://dx.doi.org/>                   ||
 | May use custom resolver                                                                 | **Yes**                                 ||
-| Accompanying metadata                                                                   | **Yes**                                 | Full metadata schema depending on provider |
+| Accompanying metadata kernel                                                            | **Yes**                                 | Full metadata schema depending on provider |
 | Inception                                                                               | **2000**                                ||
 | Standard                                                                                | **ISO 26324**                           | <https://www.iso.org/obp/ui/#iso:std:iso:26324> |
 | Documentation                                                                           | **DOI Handbook**                        | <https://doi.org/10.1000/182> |

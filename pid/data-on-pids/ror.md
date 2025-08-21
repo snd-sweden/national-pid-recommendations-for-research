@@ -22,7 +22,7 @@ ROR ID (Research Organization Registry ID) is a persistent identifier for organi
 | Case sensitive                                                                          | **Yes**                                 ||
 | General resolver                                                                        | <https://ror.org/>                      ||
 | May use custom resolver                                                                 | **Only with data dump cached locally**  ||
-| Accompanying metadata                                                                   | **Yes**                                 | As described in currently supported versions of the ROR Schema |
+| Accompanying metadata kernel                                                            | **Yes**                                 | As described in currently supported versions of the ROR Schema |
 | Inception                                                                               | **2019**                                ||
 | Standard                                                                                | **No**                                  ||
 | Supersedes                                                                              | **GRID ID**                             ||
