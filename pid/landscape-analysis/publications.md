@@ -44,7 +44,7 @@ The final and unique part of the NBN comes after any namespaces, making up a ful
 In Sweden, URN:NBN sub-namespaces for `urn:nbn:se` are [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/urnnbn.html).
 
 
-## Identifiers for preprints and manuscripts
+## Preprints and manuscripts
 
 ### arXiv ID
 🟢 Active  
@@ -63,7 +63,7 @@ They follow the pattern `YYYY.MM.DD.number`, with number being a 6-digit integer
 The medRxiv and bioRxiv identifiers are also used in the generation of DOIs pointing to the objects.
 Thus, `bioRxiv:2025.08.06.668887` will correspond to the resolvable DOI: <https://doi.org/10.1101/2025.08.06.668887>
 
-## Identifiers for monographs
+## Monographs (books)
 
 ### ISBN and eISBN
 🟢 Active  
@@ -78,7 +78,7 @@ The ISBN system was designed in the 1960s and as a result, the infrastructure fo
 
 In Sweden, ISBN identifiers for research publications may be [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/isbn.html).
 
-## Identifiers for serials
+## Serials (journals, book series)
 
 ### ISSN and eISSN
 🟢 Active  
@@ -87,7 +87,7 @@ It is an 8-digit number prefixed with `ISSN:`, such as `ISSN:1234-5678` or `eISS
 
 In Sweden, ISSN identifiers for research publications may be [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/issn-.html). 
 
-## Bibliographic database indexing identifiers
+## Bibliographic database entries
 These are not identifiers for the digital publications themselves, but for bibliographic entries in databases describing the publications. Since they are providing further details on the actual publication, they may sometimes be used in reference entries.
 
 ### PMID and PMCID

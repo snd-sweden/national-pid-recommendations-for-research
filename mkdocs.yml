@@ -41,27 +41,27 @@ nav:
         - Kernel metadata: pid-concepts/kernel-metadata.md
     - Landscape analysis:
         - landscape-analysis/index.md
-        - Researchers & contributors: landscape-analysis/researchers-contributors.md
+#        - Researchers & contributors: landscape-analysis/researchers-contributors.md
         - Organisations: landscape-analysis/organisations.md
         - Publications: landscape-analysis/publications.md
-        - Data: landscape-analysis/research-data.md
-        - Projects & activities: landscape-analysis/projects-activities.md
-        - Funding: landscape-analysis/funding.md
-        - Software & models: landscape-analysis/software-models.md
-        - Simulations: landscape-analysis/simulations.md
-        - Analyses: landscape-analysis/analyses.md
-        - Data repositories: landscape-analysis/data-repositories.md
-        - Research infrastructures: landscape-analysis/research-infrastructures.md
-        - Citations: landscape-analysis/citations.md
-        - Conferences: landscape-analysis/conferences.md
-        - Instruments & collection equipment: landscape-analysis/instruments.md
-        - Samples: landscape-analysis/samples.md
-        - Protocols: landscape-analysis/protocols.md
-        - Workflows: landscape-analysis/workflows.md
-        - Preregistrations: landscape-analysis/preregistrations.md
+#        - Data: landscape-analysis/research-data.md
+#        - Projects & activities: landscape-analysis/projects-activities.md
+#        - Funding: landscape-analysis/funding.md
+#        - Software & models: landscape-analysis/software-models.md
+#        - Simulations: landscape-analysis/simulations.md
+#        - Analyses: landscape-analysis/analyses.md
+#        - Data repositories: landscape-analysis/data-repositories.md
+#        - Research infrastructures: landscape-analysis/research-infrastructures.md
+#        - Citations: landscape-analysis/citations.md
+#        - Conferences: landscape-analysis/conferences.md
+#        - Instruments & collection equipment: landscape-analysis/instruments.md
+#        - Samples: landscape-analysis/samples.md
+#        - Protocols: landscape-analysis/protocols.md
+#        - Workflows: landscape-analysis/workflows.md
+#        - Preregistrations: landscape-analysis/preregistrations.md
         - Licenses: landscape-analysis/licenses.md
-        - Artefacts & finds: landscape-analysis/artefacts.md
-        - Monuments: landscape-analysis/monuments.md
+#        - Artefacts & finds: landscape-analysis/artefacts.md
+#        - Monuments: landscape-analysis/monuments.md
     - Recommendations: 
         - recommendations/index.md
     - Data on PIDs:
@@ -69,8 +69,9 @@ nav:
         - DOI: data-on-pids/doi.md
         - Handle: data-on-pids/handle.md
         - ROR ID: data-on-pids/ror.md
+        - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:
         - Sunet: pid-actors-sweden/sunet.md
-        - The Royal Library (KB): pid-actors-sweden/kb.md
+        - National Library of Sweden (KB): pid-actors-sweden/kb.md
         - Swedish National Data Service (SND): pid-actors-sweden/snd.md
     - Definitions: definitions/index.md
