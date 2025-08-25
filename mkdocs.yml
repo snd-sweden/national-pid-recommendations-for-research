@@ -38,6 +38,7 @@ nav:
 #        - Coverage: pid-concepts/coverage.md
 #        - Usage context and added value: pid-concepts/usage-context.md
         - PID ecosystem: pid-concepts/pid-ecosystem.md
+        - Kernel metadata: pid-concepts/kernel-metadata.md
     - Landscape analysis:
         - landscape-analysis/index.md
         - Researchers & contributors: landscape-analysis/researchers-contributors.md
