@@ -41,7 +41,7 @@ There may also be sub-namespaces, providing additional capabilities for organisa
 
 The final and unique part of the NBN comes after any namespaces, making up a full NBN such as `urn:nbn:se:lnu:diva-100838`. The target object may be accessed through a resolver for URN:NBN such as: <https://nbn-resolving.org/urn:nbn:se:lnu:diva-100838>
 
-In Sweden, URN:NBN sub-namespaces for `urn:nbn:se` are [assigned by The Royal Library (KB)](https://www.kb.se/isbn-och-utgivning/urnnbn.html).
+In Sweden, URN:NBN sub-namespaces for `urn:nbn:se` are [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/urnnbn.html).
 
 
 ## Identifiers for preprints and manuscripts
@@ -76,7 +76,7 @@ It should be noted that objects being assigned ISBNs may also have other assigne
 
 The ISBN system was designed in the 1960s and as a result, the infrastructure for the identifiers is decentralised and based on print media paradigms. ISBNs do not have a single mandated global resolution service, and ISBN metadata is governed by various agencies and publishers.
 
-In Sweden, ISBN identifiers for research publications may be [assigned by The Royal Library (KB)](https://www.kb.se/isbn-och-utgivning/isbn.html).
+In Sweden, ISBN identifiers for research publications may be [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/isbn.html).
 
 ## Identifiers for serials
 
@@ -85,7 +85,7 @@ In Sweden, ISBN identifiers for research publications may be [assigned by The Ro
 An ISSN (International Standard Serial Number) identifies a serial publication, such as an academic journal or book series.
 It is an 8-digit number prefixed with `ISSN:`, such as `ISSN:1234-5678` or `eISSN:` for electronic versions, e.g. `eISSN:1234-5678`.
 
-In Sweden, ISSN identifiers for research publications may be [assigned by The Royal Library (KB)](https://www.kb.se/isbn-och-utgivning/issn-.html). 
+In Sweden, ISSN identifiers for research publications may be [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/issn-.html). 
 
 ## Bibliographic database indexing identifiers
 These are not identifiers for the digital publications themselves, but for bibliographic entries in databases describing the publications. Since they are providing further details on the actual publication, they may sometimes be used in reference entries.
