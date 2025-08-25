@@ -4,7 +4,7 @@ _Last updated: 2025-08-25_
 
 Persistent identifiers for publications uniquely and permanently identify scholarly works such as journal articles, books and other academic works in the digital environment. They ensure consistent access, accurate citation and facilitate research sharing and collaboration.
 
-The PID landscape for traditional reseearch publications may be seen as quite mature compared to other objects in research. However, because of historical reasons, some identifiers for publications do not have global online resolvers or independently readable kernel metadata.
+The PID landscape for traditional research publications may be considered quite mature compared to other digital objects in research. However, because of historical reasons, some identifiers for publications do not have global online resolvers or independently readable kernel metadata.
 
 ## Generic PIDs for digital publications
 
