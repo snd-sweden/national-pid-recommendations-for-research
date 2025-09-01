@@ -52,7 +52,7 @@ nav:
 #        - Analyses: landscape-analysis/analyses.md
 #        - Data repositories: landscape-analysis/data-repositories.md
 #        - Research infrastructures: landscape-analysis/research-infrastructures.md
-#        - Citations: landscape-analysis/citations.md
+        - Citations: landscape-analysis/citations.md
 #        - Conferences: landscape-analysis/conferences.md
 #        - Instruments & collection equipment: landscape-analysis/instruments.md
 #        - Samples: landscape-analysis/samples.md
@@ -62,8 +62,8 @@ nav:
         - Licenses: landscape-analysis/licenses.md
 #        - Artefacts & finds: landscape-analysis/artefacts.md
 #        - Monuments: landscape-analysis/monuments.md
-    - Recommendations: 
-        - recommendations/index.md
+#    - Recommendations: 
+#        - recommendations/index.md
     - Data on PIDs:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
@@ -74,4 +74,4 @@ nav:
         - Sunet: pid-actors-sweden/sunet.md
         - National Library of Sweden (KB): pid-actors-sweden/kb.md
         - Swedish National Data Service (SND): pid-actors-sweden/snd.md
-    - Definitions: definitions/index.md
+#    - Definitions: definitions/index.md
