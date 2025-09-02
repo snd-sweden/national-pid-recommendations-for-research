@@ -16,7 +16,7 @@ Unlike persistent identifiers such as DOIs, which uniquely identify specific wor
 ### Open Citation Identifier (OCI)
 
 🟢 Active  
-[Open Citation Identifiers](https://doi.org/10.6084/m9.figshare.7127816.v2) (OCIs) are identifiers that represent individual citations. They are created through metadata aggregation in the [OpenCitations](https://opencitations.net) infrastructure[jrnl-OpenCitationsInfrastructureOrganization-20]. 
+[Open Citation Identifiers](https://doi.org/10.6084/m9.figshare.7127816.v2) (OCIs) are identifiers that represent individual citations. They are created through metadata aggregation in the [OpenCitations](https://opencitations.net) infrastructure.[@jrnl-OpenCitationsInfrastructureOrganization-20]
 
 OCI is a globally unique, machine-readable persistent identifier assigned to citations indexed in open bibliographic sources. It features a simple structure, beginning with `oci:`, followed by two sequences of numbers separated by a dash. The first sequence encodes the citing resource, while the second encodes the cited resource. Both sequences include a prefix indicating the source database, such as Wikidata, Crossref, Dryad or OpenCitations. 
 
