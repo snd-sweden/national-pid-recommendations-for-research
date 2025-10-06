@@ -16,11 +16,11 @@ Full PID systems for identifying researchers and contributors may enable continu
 
 🟢 Active
 
-[ORCID](https://orcid.org) (Open Researcher and Contributor ID) is a PID for researchers and other contributors active in the research sector.
+[ORCID](../data-on-pids/orcid.md) (Open Researcher and Contributor ID) is a PID for researchers and other contributors active in the research sector.
 
 The format of an ORCID consists of sixteen digits in groups of four, i.e.:
 `0000-0002-1825-0097`  
-It is also commonly expressed as a resolvable link using the ORCID resolver, leading to a corresponding ORCID profile page: [https://orcid.org/0000-0002-1825-0097](https://orcid.org/0000-0002-1825-0097)
+It is also commonly expressed as a resolvable link using the ORCID resolver, leading to a corresponding ORCID profile page: [https://orcid.org/0000-0002-1825-0097](https://orcid.org/0000-0002-1825-0097). The format is designed to be compatible with the ISNI pattern (ISO 27729) to avoid conflicts.
 
 An ORCID record may contain basic information about the individual, such as their first and last names along with any name variants, affiliations and employments and contact information.
 It may also contain metadata describing related research activities such as publications and other works, research grants, along with other professional activities such as peer review activity, memberships and positions.
