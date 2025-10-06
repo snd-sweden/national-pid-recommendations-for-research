@@ -41,7 +41,7 @@ nav:
         - Kernel metadata: pid-concepts/kernel-metadata.md
     - Landscape analysis:
         - landscape-analysis/index.md
-#        - Researchers & contributors: landscape-analysis/researchers-contributors.md
+        - Researchers & contributors: landscape-analysis/researchers-contributors.md
         - Organisations: landscape-analysis/organisations.md
         - Publications: landscape-analysis/publications.md
 #        - Data: landscape-analysis/research-data.md

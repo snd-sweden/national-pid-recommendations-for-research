@@ -1,6 +1,6 @@
 # Organisations
 
-_Last updated: 2025-05-08_
+_Last updated: 2025-10-06_
 
 [TODO: Add references]: # 
 
@@ -66,7 +66,6 @@ VIAF IDs may be accessed through permalinks. A VIAF ID is clustered and may have
 
 Because of its origins, VIAF is mainly used to support library infrastructures, but other systems may make use of it as an additional identifier and metadata source.
 
-
 The VIAF Consortium was formed in 2003 and the VIAF infrastructure is hosted by OCLC. The [National Library of Sweden](../pid-actors-sweden/kb.md) is a VIAF Contributor.
 
 ### Ringgold ID
@@ -95,6 +94,8 @@ Wikidata is an international knowledge graph containing metadata describing item
 
 Since Wikidata may be used to describe various objects and entities, an organisation may also be described as a Wikidata item with an identifier beginning with the letter Q (Q-ID). Wikidata entries are often very useful as a metadata hub to find various information about an organisation. Metadata describing the organisation may be created in many ways using relevant Wikidata properties and items, such as PIDs and other identifiers. This makes Wikidata entries especially useful for cross-referencing various organisational identifier systems.
 
+For example, Lund University has the Wikidata Q identifier `Q218506` which may be resolved at: https://www.wikidata.org/wiki/Q218506
+
 Wikidata is maintained by the Wikimedia Foundation and its contents may be edited by volunteers. The accuracy is generally high, but because of its open nature, metadata may need additional verification or curation. Research organisations will benefit from active maintenance and quality control of their respective Wikidata item entries.
 
 ### GRID ID
@@ -111,7 +112,7 @@ Since 2021, ROR has incorporated all entities formerly assigned a GRID ID, forma
 
 🟢 Active
 
-In Sweden, a legal person such as a government agency, association or company should be identifiable using a Swedish organisation number (also called registration number, company registration number). This includes many organisational entities such as research-performing organisations and funders. The number is obtained through registering the organisation at the Swedish Companies Registration Office (_Bolagsverket_).
+In Sweden, a legal person such as a government agency, association or company should be identifiable using a Swedish organisation number (also called registration number, company registration number). This includes many organisational entities such as research-performing organisations and funders. The number is obtained through registering the organisation with the responsible agency, such as Statistics Sweden for governmental agencies, the Swedish Tax Agency for foundations and the Swedish Companies Registration Office  for companies.
 
 Because of legal requirements, the organisation number may serve as a fall-back identifier for Swedish research organisations not yet having been assigned an international organisational PID for the research sector, such as ROR ID.
 
@@ -122,3 +123,6 @@ Because of legal requirements, the organisation number may serve as a fall-back 
 The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, the national library catalogue. In parallel, they also govern the Libris authority file used for unambiguous identification of works, individuals and organisations. The authority file is built upon the RDF-based BIBFRAME standard. Authority metadata is created by individual libraries and will populate VIAF entries after curation.
 
 Research organisations and funders may be indexed as Agent entries in the Libris authority file, obtaining unique identifiers. Organisational Agents in the authority file are linked to ISNI and VIAF identifiers and may contain relations to subdivisions of the organisation. Entries may be interacted with through the web or by downloaded structured metadata files.
+
+Organisational Agent entries will be assigned an unique ID number together with to an unique string. For example, Lund University has a Libris authority ID of `122845` and a unique ID string, `97mpmc9t38pfj80`. These may be resolved online, both leading to the same human-readable entry also available in machine-readable formats: http://libris.kb.se/resource/auth/180301 and 
+https://libris.kb.se/97mpmc9t38pfj80
