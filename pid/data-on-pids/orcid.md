@@ -6,7 +6,9 @@ _Last updated: 2025-10-06_
 
 It allows for identification and disambiguation of authors, and the corresponding ORCID record may contain various information such as affiliations, publications and biographical details.
 
-Individuals may register and maintain their own ORCID records. Organisational members may create or modify ORCID records tied to affiliated individuals.
+Individuals may register and maintain their own ORCID records. Organisational members may create or modify ORCID records tied to affiliated individuals through the Member API.
+
+[Sunet](https://sunet.se/) maintains a [Swedish ORCID Consortium](https://sunet.se/services/identifiering/orcid), and several of the larger Swedish research performing organisations are Consortia Members. Consortia Members will gain access to the full set of organisational features through the API.
 
 ## Where to get started as a Swedish organisation?
 | Use case                                                                   | Contact                           | URL |
@@ -29,7 +31,7 @@ Individuals may register and maintain their own ORCID records. Organisational me
 | May use custom resolver                                                                 | **No**  ||
 | Accompanying metadata kernel                                                            | **Yes**                                 | As described in the ORCID Record Schema |
 | Inception                                                                               | **2012**                                ||
-| Standard                                                                                | **ISO 27729**                                  | https://www.iso.org/obp/ui/en/#!iso:std:87177 Note: ORCIDs confirm to the format of the ISNI Schema but are otherwise separate from ISNI. |
+| Standard                                                                                | **ISO 27729**                                  | <https://www.iso.org/obp/ui/en/#!iso:std:87177> Note: ORCIDs confirm to the format of the ISNI Schema but are otherwise separate from ISNI. |
 | Documentation                                                                           | **ORCID Documentation**                   | <https://info.orcid.org/documentation/> |
 | Kernel metadata schema                                                                  | **ORCID Record Schema**                          | <https://info.orcid.org/documentation/integration-guide/orcid-record/> |
 | Wikipedia article                                                                       | **ORCID**      | <https://en.wikipedia.org/wiki/ORCID> |
