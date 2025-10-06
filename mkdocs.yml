@@ -68,6 +68,7 @@ nav:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
         - Handle: data-on-pids/handle.md
+        - ORCID: data-on-pids/orcid.md
         - ROR ID: data-on-pids/ror.md
         - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:

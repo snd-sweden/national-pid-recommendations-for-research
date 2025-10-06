@@ -128,6 +128,6 @@ A Web of Science ResearcherID will be generated for new individuals listed as au
 
 The ResearcherID is generated after creating a user account or is generated algorithmically once a publication with the contributor has been indexed.
 
-For example, the neuroscientist Arvid Carlsson (1923-2018) has the Web of Science ResearcherID: `MJA-8149-2025` and an associated numeric ID: `69266209`. They will both resolve to a Scopus Author Profile with related publications, in this case: https://www.webofscience.com/wos/author/record/MJA-8149-2025 and https://www.webofscience.com/wos/author/record/69266209
+For example, the neuroscientist Arvid Carlsson (1923-2018) has the Web of Science ResearcherID: `MJA-8149-2025` and an associated numeric ID: `69266209`. They will both resolve to a Web of Science Author Profile with related publications, in this case: https://www.webofscience.com/wos/author/record/MJA-8149-2025 and https://www.webofscience.com/wos/author/record/69266209
 
 Algorithmically generated ResearcherIDs may be claimed by the author after proving their identity. Since the ResearcherID may be generated automatically, disambiguation sometimes fails and multiple IDs may be generated for the same individual, based on f.e. name variations. In this case, individuals with Web of Science accounts may request a merge of profiles using the "Delete/merge account" function.
