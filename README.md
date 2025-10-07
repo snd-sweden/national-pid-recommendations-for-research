@@ -18,7 +18,12 @@ If you know the basics of Markdown you should have no trouble editing or suggest
 
 References are handled in BibTeX format and the source file is in *refs.bib*.
 
-## Instructions for building the static site
+## Visiting the static site
+
+A static web page is built after each commit. It is currently available at: <https://snd-sweden.github.io/national-pid-recommendations-for-research/>
+The web page is considered work in progress and is currently used to observe how contributions are rendered.
+
+## Instructions for building the static site locally
 
 If you want to build the web resource locally you may do so by installing a MkDocs environment:
 
