@@ -1,18 +1,40 @@
 site_name: National PID recommendations for research - Sweden
 repo_url: https://github.com/snd-sweden/national-pid-recommendations-for-research/
-docs_dir: './pid/'
-copyright: '<a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
+repo_name: snd-sweden/national-pid-recommendations-for-research
+#docs_dir: './pid/'
+copyright: 'Swedish National Data Service & other contributors 2025 | <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
 
 theme:
-    name: windmill
+    name: material
     language: en
+    logo: img/snd.svg
+    palette:
+        primary: white
+        accent: indigo
+    features:
+        - header.autohide
+        - navigation.top
+        - navigation.footer
+        - navigation.tabs
+        - search.suggest
+        - search.highlight
 
 extra:
-    extra.article_nav_top: false
-    extra.article_nav_bottom: true
-    extra.history_buttons: false
+#    extra.article_nav_top: false
+#    extra.article_nav_bottom: true
+#    extra.history_buttons: false
 #    extra.logo: 'img/snd.svg'
-    extra.version: '0.0.1'
+#    extra.version: '0.0.1'
+    generator: false
+    social:
+    - icon: fontawesome/solid/house 
+      link: https://snd.se
+    - icon: fontawesome/brands/github 
+      link: https://github.com/snd-sweden
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/2228489365
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@svensknationelldatatjanst8231
 
 plugins:
     - search: {}
