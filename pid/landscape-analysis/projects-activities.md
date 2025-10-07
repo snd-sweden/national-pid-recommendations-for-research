@@ -1,1 +1,0 @@
-# Research projects and research activities

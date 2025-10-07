@@ -1,1 +1,0 @@
-# Instruments and collection equipment
