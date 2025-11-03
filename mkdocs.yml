@@ -1,6 +1,6 @@
 site_name: National PID recommendations for research - Sweden
 repo_url: https://github.com/snd-sweden/national-pid-recommendations-for-research/
-repo_name: snd-sweden/national-pid-recommendations-for-research
+repo_name: national-pid-recommendations-for-research
 #docs_dir: './pid/'
 copyright: 'Swedish National Data Service & other contributors 2025 | <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
 
@@ -50,9 +50,9 @@ markdown_extensions:
 
 nav:
     - National PID recommendations for research: index.md
-    - What is a PID?: what-is-pid.md
-    - What is this and who is it for?: what-who.md
     - PID concepts:
+        - pid-concepts/index.md
+        - What is a PID?: pid-concepts/what-is-pid.md
         - Persistence: pid-concepts/persistence.md
         - Uniqueness: pid-concepts/uniqueness.md
 #        - Resolvability: pid-concepts/resolvability.md
@@ -94,6 +94,7 @@ nav:
         - ROR ID: data-on-pids/ror.md
         - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:
+        - pid-actors-sweden/index.md
         - Sunet: pid-actors-sweden/sunet.md
         - National Library of Sweden (KB): pid-actors-sweden/kb.md
         - Swedish National Data Service (SND): pid-actors-sweden/snd.md
