@@ -61,6 +61,8 @@ nav:
 #        - Usage context and added value: pid-concepts/usage-context.md
         - PID ecosystem: pid-concepts/pid-ecosystem.md
         - Kernel metadata: pid-concepts/kernel-metadata.md
+        - Landing pages: pid-concepts/landing-pages.md
+        - Tombstone pages: pid-concepts/tombstone-pages.md
     - Landscape analysis:
         - landscape-analysis/index.md
         - Researchers & contributors: landscape-analysis/researchers-contributors.md

@@ -44,7 +44,7 @@ Windows:
 
 4. Install the requirements using pip (make sure the venv is activated first):
 
-`pip3 install mkdocs mkdocs-bibtex mkdocs-material`
+`pip3 install mkdocs pypandoc_binary mkdocs-bibtex mkdocs-material`
 
 5. Navigate to the folder where the repository has been cloned or pulled.
 
