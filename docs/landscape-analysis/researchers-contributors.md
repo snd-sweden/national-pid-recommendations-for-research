@@ -1,6 +1,6 @@
 # Researchers and other contributors
 
-_Last updated: 2025-10-06_
+_Last updated: 2025-11-12_
 
 Identification of researchers and other contributors has emerged as one of the most critical use cases of persistent identifier systems. 
 
@@ -20,7 +20,7 @@ Full PID systems for identifying researchers and contributors may enable continu
 
 The format of an ORCID consists of sixteen digits in groups of four, i.e.:
 `0000-0002-1825-0097`  
-It is also commonly expressed as a resolvable link using the ORCID resolver, leading to a corresponding ORCID profile page: [https://orcid.org/0000-0002-1825-0097](https://orcid.org/0000-0002-1825-0097). The format is designed to be compatible with the ISNI pattern (ISO 27729) to avoid conflicts.
+It is also commonly expressed as a resolvable link using the ORCID resolver, leading to a corresponding ORCID profile page: <https://orcid.org/0000-0002-1825-0097>. The format is designed to be compatible with the ISNI pattern (ISO 27729) to avoid conflicts.
 
 An ORCID record may contain basic information about the individual, such as their first and last names along with any name variants, affiliations and employments and contact information.
 It may also contain metadata describing related research activities such as publications and other works, research grants, along with other professional activities such as peer review activity, memberships and positions.
@@ -63,7 +63,7 @@ The VIAF Consortium was formed in 2003 and the VIAF infrastructure is hosted by 
 
 Since Wikidata may be used to describe various objects and entities, an individual may also be described as a Wikidata item with an identifier beginning with the letter Q (Q-ID). Wikidata entries may be enriched with other relevant information about an individual. Metadata describing the individual may be created in many ways using relevant Wikidata properties and items, such as PIDs and other identifiers. This makes Wikidata entries useful for cross-referencing PIDs and other information associated with the individual.
 
-For example, the neuroscientist Arvid Carlsson (1923-2018) has the Wikidata Q identifier `Q298045` which may be resolved at: https://www.wikidata.org/wiki/Q298045
+For example, the neuroscientist Arvid Carlsson (1923-2018) has the Wikidata Q identifier `Q298045` which may be resolved at: <https://www.wikidata.org/wiki/Q298045>
 
 Wikidata is maintained by the Wikimedia Foundation and its contents may be edited by volunteers. The accuracy is generally high, but because of its open nature, metadata may need additional verification or curation. Research organisations will benefit from active maintenance and quality control of Wikidata item entries describing affiliated individuals, such as updating or correcting related identifiers and other metadata within the entry.
 
@@ -77,8 +77,8 @@ The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, t
 
 Researchers and contributors may be indexed as individual Agent entries in the Libris authority file, obtaining unique identifiers. Individual Agents in the authority file are linked to ISNI and VIAF identifiers. Entries may be interacted with through the web or by downloaded structured metadata files.
 
-Individual Agent entries will be assigned an unique author ID number together with to an unique string. For example, the neuroscientist Arvid Carlsson (1923-2018) has a Libris authority ID of `180301` and a unique ID string, `hftwwpc100ql11x`. These may be resolved online, both leading to the same human-readable entry also available in machine-readable formats: http://libris.kb.se/resource/auth/180301 and 
-https://libris.kb.se/hftwwpc100ql11x
+Individual Agent entries will be assigned an unique author ID number together with to an unique string. For example, the neuroscientist Arvid Carlsson (1923-2018) has a Libris authority ID of `180301` and a unique ID string, `hftwwpc100ql11x`. These may be resolved online, both leading to the same human-readable entry also available in machine-readable formats: <https://libris.kb.se/resource/auth/180301> and 
+<https://libris.kb.se/hftwwpc100ql11x>
 
 ### Swedish personal identification number
 
@@ -116,7 +116,7 @@ A Scopus Author ID will be generated for new individuals listed as authors and c
 
 The Scopus Author ID may be created upon creating a user account, or is generated algorithmically based on name, email, affiliation, subject area, citations and co-authors once a publication has been indexed. It is typically a 11-digit number. 
 
-For example, the neuroscientist Arvid Carlsson (1923-2018) has the Scopus Author ID: `35509103000`. This will resolve to a Scopus Author Profile with related publications, in this case: https://www.scopus.com/authid/detail.uri?authorId=35509103000
+For example, the neuroscientist Arvid Carlsson (1923-2018) has the Scopus Author ID: `35509103000`. This will resolve to a Scopus Author Profile with related publications, in this case: <https://www.scopus.com/authid/detail.uri?authorId=35509103000>
 
 Algorithmically generated Scopus Author IDs may be claimed by the author after proving their identity. Since the Scopus Author ID may be generated automatically, disambiguation sometimes fails and multiple IDs may be generated for the same individual, based on f.e. name variations. In this case, individuals with Scopus accounts may request a merge of profiles using the "Request to merge authors" button.
 
@@ -128,6 +128,6 @@ A Web of Science ResearcherID will be generated for new individuals listed as au
 
 The ResearcherID is generated after creating a user account or is generated algorithmically once a publication with the contributor has been indexed.
 
-For example, the neuroscientist Arvid Carlsson (1923-2018) has the Web of Science ResearcherID: `MJA-8149-2025` and an associated numeric ID: `69266209`. They will both resolve to a Web of Science Author Profile with related publications, in this case: https://www.webofscience.com/wos/author/record/MJA-8149-2025 and https://www.webofscience.com/wos/author/record/69266209
+For example, the neuroscientist Arvid Carlsson (1923-2018) has the Web of Science ResearcherID: `MJA-8149-2025` and an associated numeric ID: `69266209`. They will both resolve to a Web of Science Author Profile with related publications, in this case: <https://www.webofscience.com/wos/author/record/MJA-8149-2025> and <https://www.webofscience.com/wos/author/record/69266209>
 
 Algorithmically generated ResearcherIDs may be claimed by the author after proving their identity. Since the ResearcherID may be generated automatically, disambiguation sometimes fails and multiple IDs may be generated for the same individual, based on f.e. name variations. In this case, individuals with Web of Science accounts may request a merge of profiles using the "Delete/merge account" function.

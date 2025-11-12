@@ -1,6 +1,6 @@
 # Organisations
 
-_Last updated: 2025-10-06_
+_Last updated: 2025-11-12_
 
 [TODO: Add references]: # 
 
@@ -94,7 +94,7 @@ Wikidata is an international knowledge graph containing metadata describing item
 
 Since Wikidata may be used to describe various objects and entities, an organisation may also be described as a Wikidata item with an identifier beginning with the letter Q (Q-ID). Wikidata entries are often very useful as a metadata hub to find various information about an organisation. Metadata describing the organisation may be created in many ways using relevant Wikidata properties and items, such as PIDs and other identifiers. This makes Wikidata entries especially useful for cross-referencing various organisational identifier systems.
 
-For example, Lund University has the Wikidata Q identifier `Q218506` which may be resolved at: https://www.wikidata.org/wiki/Q218506
+For example, Lund University has the Wikidata Q identifier `Q218506` which may be resolved at: <https://www.wikidata.org/wiki/Q218506>
 
 Wikidata is maintained by the Wikimedia Foundation and its contents may be edited by volunteers. The accuracy is generally high, but because of its open nature, metadata may need additional verification or curation. Research organisations will benefit from active maintenance and quality control of their respective Wikidata item entries.
 
@@ -124,5 +124,5 @@ The [National Library of Sweden](../pid-actors-sweden/kb.md) maintains Libris, t
 
 Research organisations and funders may be indexed as Agent entries in the Libris authority file, obtaining unique identifiers. Organisational Agents in the authority file are linked to ISNI and VIAF identifiers and may contain relations to subdivisions of the organisation. Entries may be interacted with through the web or by downloaded structured metadata files.
 
-Organisational Agent entries will be assigned an unique ID number together with to an unique string. For example, Lund University has a Libris authority ID of `122845` and a unique ID string, `97mpmc9t38pfj80`. These may be resolved online, both leading to the same human-readable entry also available in machine-readable formats: http://libris.kb.se/resource/auth/180301 and 
-https://libris.kb.se/97mpmc9t38pfj80
+Organisational Agent entries will be assigned an unique ID number together with to an unique string. For example, Lund University has a Libris authority ID of `122845` and a unique ID string, `97mpmc9t38pfj80`. These may be resolved online, both leading to the same human-readable entry also available in machine-readable formats: <https://libris.kb.se/resource/auth/180301> and 
+<https://libris.kb.se/97mpmc9t38pfj80>

@@ -1,6 +1,6 @@
 # Publications
 
-_Last updated: 2025-08-25_
+_Last updated: 2025-11-12_
 
 Persistent identifiers for publications uniquely and permanently identify scholarly works such as journal articles, books and other academic works in the digital environment. They ensure consistent access, accurate citation and facilitate research sharing and collaboration.
 
@@ -24,7 +24,7 @@ There are several [PID Providers](../pid-concepts/pid-ecosystem.md) for DOIs. Fo
 🟢 Active  
 A [Handle](../data-on-pids/handle.md) is a basic persistent identifier providing redirection to an object. Handles are assigned to diverse publications such as journal articles, technical reports and books. They are widely adopted in many research sectors, such as in the cultural heritage sector and humanities.
 
-A Handle consists of a prefix issued by the Handle.net registry and a suffix that uniquely identifies the handle under that prefix, for example `20.500.12703/5377`. It will be registered in the Global Handle Registry and will be able to generate a persistent link with the appropriate resolver: https://hdl.handle.net/20.500.12703/5377
+A Handle consists of a prefix issued by the Handle.net registry and a suffix that uniquely identifies the handle under that prefix, for example `20.500.12703/5377`. It will be registered in the Global Handle Registry and will be able to generate a persistent link with the appropriate resolver: <https://hdl.handle.net/20.500.12703/5377>
 
 The core Handle system is also used to provide the base infrastructure of many other PID systems. While such systems may use the Handle system internally, they often extend the Handle infrastructure considerably and should be considered unique PID systems of their own.
 
