@@ -1,22 +1,24 @@
 # PID ecosystem
 
+_Last updated: 2025-11-17_
+
 A *PID ecosystem* refers to the layered set of technologies, infrastructures, services and actors that together enable the creation, resolution, management, and use of PIDs. The PID stack as described here was defined in the FAIR-IMPACT project.[@rep-D33Guidelines-24]
 
 ## Scheme
-A *PID Scheme* defines the basic architecture of the PID, such as the basic template of its composition. It may also contain metadata schemes for metadata that is required or possible to embed together with the PID.
+A *PID Scheme* defines the basic architecture of the PID, such as the basic template of its composition. It may also contain metadata schemas for metadata that is required or possible to embed together with the PID.
 
 ## Authority
 A *PID Authority* governs the core concepts and backbone infrastructure of the PID system. It will most often certify or provide licensing to other actors of the PID ecosystem, such as PID Providers. It may lead the strategic development of the PID system, or take a more passive role. 
 
 ## Standards Body
 
-The strategic direction of a PID system may in some cases be controlled by a separate *PID Standards Body*, developing standards that define core aspects of the PID system. The Standards Body may define a kernel metadata schema that in some cases may be extended by other actors in the PID ecosystem.
+The strategic direction of a PID system may in some cases be controlled by a separate *PID Standards Body*, developing standards that define core aspects of the PID system. The Standards Body may define a [kernel metadata](kernel-metadata.md) schema that in some cases may be extended by other actors in the PID ecosystem.
 
 ## Provider
 A *PID Provider* makes it possible for PID Owners to register PIDs and PID Users to make use of existing registered PIDs. The Provider will often maintain their own infrastructure for storing and managing the PIDs that have been registered through the provider. In many cases, the PID Provider will facilitate PID registration using a hierarchical model, where organisations sign up to manage PIDs for their respective users. 
 
 ## Multi-Primary Administrator
-In some cases, the Provider will take a larger role in the PID stack. It may for example provide PID resolution infrastructure for all PIDs registered with the Provider. It may also develop and govern a specific subset of the metadata schema associated with the PID. To differentiate this specific type of Provider, they are sometimes referred to as *PID Multi-Primary Administrator* or MPAs. The main PID system using this terminology today is the Handle system.
+In some cases, the Provider will take a larger role in the PID stack. It may for example provide PID resolution infrastructure for all PIDs registered with the Provider. It may also develop and govern a specific subset of the metadata schema associated with the PID. To differentiate this specific type of Provider, they are sometimes referred to as *PID Multi-Primary Administrator* or MPAs. The main PID system using this terminology today is the [Handle](../data-on-pids/handle.md) system.
 
 ## Manager
 The individual organisations registered with a PID Provider may be managed by *PID Managers* through organisational accounts. The PID Managers may register PIDs manually or gain access to infrastructure such as Provider APIs to integrate PID registration and management into software and services.

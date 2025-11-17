@@ -1,5 +1,7 @@
 # Kernel metadata
 
+_Last updated: 2025-11-17_
+
 The main task of persistent identifiers is to act as robust links and references to digital objects that will always work. The target of the link can be maintained over time even though the target moves or migrates to other infrastructures.
 
 However, the ability to maintain elaborate metadata about the object _within the PID system itself_ is an important distinction when classifying PIDs.
@@ -12,6 +14,6 @@ In addition to redirection services, more advanced PID systems enable the specif
 
 Kernel metadata may consist of various information such as titles, resource types, authors, affiliations or other relationships to digital objects, phenomena or concepts. The possible contents of the kernel metadata depends on the scope of the PID. Constraints on formats and standards may apply, and the provision of certain kernel metadata may be mandatory. The PID system will have adopted a metadata schema providing the rules for how to create kernel metadata.
 
-Kernel metadata may be reused for various purposes, from simple tasks like generating references to complex operations such as creating scientific knowledge graphs. High quality kernel metadata is important for interoperable and reusable open research information.
+Kernel metadata may be reused for various purposes, from simple tasks like generating references to complex operations such as creating scientific knowledge graphs through analysis of PID interrelations. High quality kernel metadata is important for interoperable and reusable open research information.
 
 An example of a common PID system providing kernel metadata is the [DOI](../data-on-pids/doi.md) system.

@@ -58,9 +58,10 @@ nav:
 #        - Resolvability: pid-concepts/resolvability.md
 #        - Interpretability: pid-concepts/interpretability.md
 #        - Coverage: pid-concepts/coverage.md
-#        - Usage context and added value: pid-concepts/usage-context.md
+        - Usage context: pid-concepts/usage-context.md
         - PID ecosystem: pid-concepts/pid-ecosystem.md
         - Kernel metadata: pid-concepts/kernel-metadata.md
+        - Concept PIDs: pid-concepts/concept-pids.md
         - Landing pages: pid-concepts/landing-pages.md
         - Tombstone pages: pid-concepts/tombstone-pages.md
     - Landscape analysis:
