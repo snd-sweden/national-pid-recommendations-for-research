@@ -1,15 +1,15 @@
 # Interpretability
 
-_Last updated: 2026-01-28_
+_Last updated: 2026-03-31_
 
 An important aspect of persistent identifiers is the sources of information that enable interpretation of PIDs by various actors and functions. In many PID systems, there are various layers of interpretability.
 
 ## Structure and semantics
 
 The **structure** of the identifier itself may carry meaning that can be interpreted. This is usually the case at least for PIDs employing a prefix-suffix structure, where the prefix may be associated with a certain scope or organisational entity.
-Some PID users also encode information within other parts of the PID, such as expressing a hierarchical relation or mirroring some other identifier or metadata, such as an ISBN or journal volume, issue and article numbers.
+Some PID users also encode information within other parts of the PID character string, such as expressing a hierarchical relation or mirroring some other identifier or metadata, such as an ISBN, a journal volume, or issue and article numbers.
 
-However, the discourse on PID methodologies has generally been taking a restrictive stance when it comes to encoding excessive information within the structure of the PID itself. Encoding static information in such a manner may be counterproductive, since PIDs are meant to be able to provide flexibility when underlying infrastructure, hierarchies or governing bodies change. 
+However, the discourse on PID methodologies has generally been taking a restrictive stance when it comes to encoding excessive information within the structure of the PID string itself. Encoding static information in such a manner may be counterproductive, since PIDs are meant to be able to provide flexibility when underlying infrastructure, hierarchies or governing bodies change. 
 
 Therefore, it is often considered being more future-proof to use randomly generated strings for the unique parts of the PID structure, while encoding the core information about the digital object in the accompanying PID metadata.
 
@@ -41,7 +41,9 @@ The payload delivered by the PID target is one or more representations of the di
 
 Simpler implementations of PIDs may lack landing pages, immediately redirecting the user to a single file download of the payload.
 
-It should also be noted that the goal of many PID systems is to specifically _deliver structured metadata_ as digital objects and payloads to be interpreted. Examples of such target objects include metadata files with formal definitions of individuals, organisations, geographical features, keywords, units or instruments.
+What the payload can be is decided by the [coverage and scope](coverage.md) of the PID system.
+
+It should also be noted that the goal of many PID systems is to specifically _deliver structured metadata_ as digital objects and payloads to be interpreted. Examples of such target objects include metadata files with formal definitions of phenomena, such as individuals, organisations, geographical features, keywords, units or instruments.
 
 ### Concept PIDs
 

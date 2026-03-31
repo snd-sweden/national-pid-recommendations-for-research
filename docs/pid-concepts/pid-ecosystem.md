@@ -1,8 +1,8 @@
 # PID ecosystem
 
-_Last updated: 2025-11-17_
+_Last updated: 2026-03-30_
 
-A *PID ecosystem* refers to the layered set of technologies, infrastructures, services and actors that together enable the creation, resolution, management, and use of PIDs. The PID stack as described here was defined in the FAIR-IMPACT project.[@rep-D33Guidelines-24]
+A *PID ecosystem*, also called a *PID stack* refers to the layered set of technologies, infrastructures, services and actors that together enable the creation, resolution, management, and use of PIDs. The PID stack as described here was defined in the FAIR-IMPACT project.[@rep-D33Guidelines-24]
 
 ## Scheme
 A *PID Scheme* defines the basic architecture of the PID, such as the basic template of its composition. It may also contain metadata schemas for metadata that is required or possible to embed together with the PID.
