@@ -55,7 +55,7 @@ nav:
         - What is a PID?: pid-concepts/what-is-pid.md
         - Persistence: pid-concepts/persistence.md
         - Uniqueness: pid-concepts/uniqueness.md
-        - Usage context: pid-concepts/usage-context.md
+        - Usage scope: pid-concepts/usage-scope.md
         - Resolvability: pid-concepts/resolvability.md
         - Interpretability: pid-concepts/interpretability.md
         - Coverage: pid-concepts/coverage.md
