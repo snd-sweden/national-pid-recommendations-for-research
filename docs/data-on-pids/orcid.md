@@ -1,6 +1,6 @@
 # ORCID
 
-_Last updated: 2025-10-06_
+_Last updated: 2026-08-18_
 
 [ORCID](https://orcid.org) (Open Researcher and Contributor ID) is a PID for researchers and other contributors active in the research sector.
 
@@ -22,14 +22,14 @@ Individuals may register and maintain their own ORCID records. Organisational me
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Open Researcher and Contributor ID**   ||
 | Abbreviated name                                                                        | **ORCID, ORCID ID, ORCID iD**                         ||
-| Intended use                                                                            | **Researchers and other contributors active in the research, scholarship and innovation sectors**              ||
+| Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)                        | **Researchers and other contributors active in the research, scholarship and innovation sectors**              ||
 | Based on other PID system(s)                                                            | **No**                                  ||
 | Example                                                                                 | **0000-0002-1825-0097**                           ||
 | Example with resolver                                                                   | <https://orcid.org/0000-0002-1825-0097>             ||
 | Case sensitive                                                                          | **No**                                 ||
 | General resolver                                                                        | <https://orcid.org/>                      ||
 | May use custom resolver                                                                 | **No**  ||
-| Accompanying metadata kernel                                                            | **Yes**                                 | As described in the ORCID Record Schema |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | As described in the ORCID Record Schema |
 | Inception                                                                               | **2012**                                ||
 | Standard                                                                                | **ISO 27729**                                  | <https://www.iso.org/obp/ui/en/#!iso:std:87177> Note: ORCIDs confirm to the format of the ISNI Schema but are otherwise separate from ISNI. |
 | Documentation                                                                           | **ORCID Documentation**                   | <https://info.orcid.org/documentation/> |
@@ -43,6 +43,6 @@ Individuals may register and maintain their own ORCID records. Organisational me
 | --------                                                                                          | -------                           | -------                                   |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **ISNI pattern, ORCID Structure**                | <https://www.iso.org/obp/ui/en/#!iso:std:87177> ; <https://support.orcid.org/hc/en-us/articles/360006897674-Structure-of-the-ORCID-Identifier>  |
 | [PID Authority](../pid-concepts/pid-ecosystem.md#authority)                                       | **ORCID, Inc.**           | <https://info.orcid.org/what-is-orcid/>       |
-| [PID Standards Body](../pid-concepts/pid-ecosystem.md#standards-body)                             | **ORCID, Inc.**           | <https://info.orcid.org/what-is-orcid/>       |
+| [PID Standards Body](../pid-concepts/pid-ecosystem.md#standards-body)                             | **International Organization for Standardization** (ISO)  | <https://www.iso.org/>          |
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider)                                         | **ORCID, Inc.**| <https://info.orcid.org/what-is-orcid/>                         |
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | (Indviduals, Direct Members (organisations), Consortia Members (organisations))  | <https://info.orcid.org/documentation/>        |

@@ -1,21 +1,21 @@
 # DOI
 
-_Last updated: 2025-05-08_
+_Last updated: 2026-08-20_
 
 DOI is a wide-spread PID system commonly in use for digital objects in research such as journal articles, book chapters and datasets.  
 
 ## Where to get started as a Swedish organisation?
 | Use case                             | Contact                        | URL |
 | --------                             | -------                        | -------                        |
-| Articles, reports, theses etc.       | CrossRef                       | <https://www.crossref.org/membership/> |
-| Research data                        | [Swedish National Data Service](../pid-actors-sweden/snd.md) | <https://snd.se/en/research-data-support/manage-data-descriptions-doris/pid-services-doi-epic> |
+| Articles, reports, theses, research data, software etc.  | DataCite DOI via [Swedish National Data Service](../pid-actors-sweden/snd.md) | <https://doi.org/10.83264/q84v-f314> |
+| Alternative DOI provider       | CrossRef                       | <https://www.crossref.org/membership/> |
 
 ## PID Parameters
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Digital Object Identifier**           ||
 | Abbreviated name                                                                        | **DOI**                                 ||
-| Intended use                                                                            | **Generic digital objects**             | Documents, file archives, datasets, etc. |
+| Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)                        | **Generic digital objects**             | Documents, file archives, datasets, etc. |
 | Based on other PID system(s)                                                            | **[Handle System](handle.md)**                       ||
 | Handle namespace                                                                        | **10**                                  ||
 | Example                                                                                 | **10.12345/abc-xyz**                    ||
@@ -24,7 +24,7 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 | General resolver #1                                                                     | <https://doi.org/>                      ||
 | General resolver #2                                                                     | <https://dx.doi.org/>                   ||
 | May use custom resolver                                                                 | **Yes**                                 ||
-| Accompanying metadata kernel                                                            | **Yes**                                 | Full metadata schema depending on provider |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | Full metadata schema depending on provider |
 | Inception                                                                               | **2000**                                ||
 | Standard                                                                                | **ISO 26324**                           | <https://www.iso.org/obp/ui/#iso:std:iso:26324> |
 | Documentation                                                                           | **DOI Handbook**                        | <https://doi.org/10.1000/182> |

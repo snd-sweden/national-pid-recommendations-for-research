@@ -47,6 +47,7 @@ markdown_extensions:
     - toc:
         permalink: true
     - footnotes
+    - attr_list
 
 nav:
     - National PID recommendations for research: index.md
@@ -70,7 +71,7 @@ nav:
         - Organisations: landscape-analysis/organisations.md
         - Publications: landscape-analysis/publications.md
 #        - Data: landscape-analysis/research-data.md
-#        - Projects & activities: landscape-analysis/projects-activities.md
+        - Projects & activities: landscape-analysis/projects-activities.md
 #        - Funding: landscape-analysis/funding.md
 #        - Software & models: landscape-analysis/software-models.md
 #        - Simulations: landscape-analysis/simulations.md
@@ -94,7 +95,9 @@ nav:
         - DOI: data-on-pids/doi.md
         - Handle: data-on-pids/handle.md
         - ORCID: data-on-pids/orcid.md
+        - RAiD: data-on-pids/raid.md
         - ROR ID: data-on-pids/ror.md
+        - SWHID: data-on-pids/swhid.md
         - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:
         - pid-actors-sweden/index.md

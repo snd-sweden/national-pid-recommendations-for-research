@@ -1,5 +1,7 @@
 # National Bibliography Number (URN:NBN)
 
+_Last updated: 2026-08-18_
+
 [NBN (National Bibliography Number)](https://en.wikipedia.org/wiki/National_Bibliography_Number) is a generic PID for digital publications. 
 It uses the [URN scheme](https://en.wikipedia.org/wiki/Uniform_Resource_Name) and is therefore commonly referred to as **URN:NBN**.
 
@@ -16,15 +18,15 @@ The the National Library of Sweden (KB) provides registration services for Swedi
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **National Bibliography Number**   ||
 | Abbreviated name                                                                        | **NBN, URN:NBN**                         ||
-| Intended use                                                                            | **Publications and certain other digital objects**              | Articles, reports, theses, student essays etc. Acts as a fallback identifier for publications which did not receive another primary identifier from a publisher or infrastructure. |
+| Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)                        | **Publications and certain other digital objects**              | Articles, reports, theses, student essays etc. Acts as a fallback identifier for publications which did not receive another primary identifier from a publisher or infrastructure. |
 | Based on other PID system(s)                                                            | **No**                                  ||
 | Example                                                                                 | **urn:nbn:se:lnu:diva-80554**                           ||
-| Example with resolver #1                                                                  | <https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Alnu%3Adiva-80554>             | <https://urn.kb.se/> is the national resolver for the Swedish `urn:nbn:se` namespace. |
-| Example with resolver #2                                                                  | <https://nbn-resolving.org/urn:nbn:se:lnu:diva-80554>             ||
+| Example with resolver #1                                                                | <https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Alnu%3Adiva-80554>             | <https://urn.kb.se/> is the national resolver for the Swedish `urn:nbn:se` namespace. |
+| Example with resolver #2                                                                | <https://nbn-resolving.org/urn:nbn:se:lnu:diva-80554>             ||
 | Case sensitive                                                                          | **No**                                 | While not being case sensitive by design, lower case is expected in practical use to avoid confusion. |
 | General resolver                                                                        | <http://nbn-resolving.org>                      | If not in the `urn:nbn:de` or `urn:nbn:ch` namespaces, this general resolver only _redirects_ requests to other national resolvers. If a resolver is down, this might fail. |
 | May use custom resolver                                                                 | **Yes, mandatory**  | The infrastructure is based on national resolvers serving their respective namespaces. |
-| Accompanying metadata kernel                                                            | **No**                                 |  |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **No**                                 |  |
 | Inception                                                                               | **2001**                                ||
 | Standard                                                                                | **RFC 8458**                                  | <https://datatracker.ietf.org/doc/html/rfc8458> |
 | Standard                                                                                | **RFC 3188**                                  | <https://datatracker.ietf.org/doc/html/rfc3188> |
