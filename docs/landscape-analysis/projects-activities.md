@@ -6,7 +6,7 @@ Deciding on what makes up a research project may seem like a trivial issue, but 
 
 ## _Project_, or _activity_?
 
-Because of the various activity types encountered in research globally, it may be misleading to only consider **research projects** when working with identification and delimitation of research contexts. In many cases, the **project** concept is also strongly tied to specific [funding and grants](funding.md), sometimes even in a manner that disqualifies activities without external funding.
+Because of the various activity types encountered in research globally, it may be misleading to only consider **research projects** when working with identification and delimitation of research contexts. In many cases, the **project** concept is also strongly tied to specific [funding and grants](funding-grants.md), sometimes even in a manner that disqualifies activities without external funding.
 
 For this reason, some initiatives have started using the **research activity** concept as a broader and more inclusive term. 
 
@@ -71,6 +71,6 @@ As a part of the OpenAIRE data model, the **Project** entity is in theory encaps
 
 The corresponding OpenAIRE Graph entry will then be available at: <https://explore.openaire.eu/search/project?projectId=fwf_________::0276f19f569783c6d1976ee3f09b408b>
 
-A review of [entities indexed to date](https://explore.openaire.eu/search/find/projects) will reveal a nearly exclusive focus on externally funded projects. This means that currently, the entity is in practice more closely related to the [funding and grants](funding.md) concept.
+A review of [entities indexed to date](https://explore.openaire.eu/search/find/projects) will reveal a nearly exclusive focus on externally funded projects. This means that currently, the entity is in practice more closely related to the [funding and grants](funding-grants.md) concept.
 
 However, in the [OpenAIRE Guidelines for CRIS Managers](https://openaire-guidelines-for-cris-managers.readthedocs.io/en/latest/), the infrastructure is supporting the CERIF _Project_ metadata model and entity, where metadata on funding is optional. Therefore, it appears that the OpenAIRE infrastructure has committed to support a more inclusive research activity concept for future development and indexing.
