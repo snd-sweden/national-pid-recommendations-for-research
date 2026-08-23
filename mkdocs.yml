@@ -98,6 +98,7 @@ nav:
         - ORCID: data-on-pids/orcid.md
         - RAiD: data-on-pids/raid.md
         - ROR ID: data-on-pids/ror.md
+        - RRID: data-on-pids/rrid.md
         - SWHID: data-on-pids/swhid.md
         - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:

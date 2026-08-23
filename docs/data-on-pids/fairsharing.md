@@ -2,7 +2,7 @@
 
 _Last updated: 2026-08-23_
 
-FAIRsharing is an international catalog and data source providing curated definition records and metadata on three main entity types:
+[FAIRsharing](https://fairsharing.org/) is an international catalog and data source providing curated definition records and metadata on three main entity types:
 
 * Standards (f.e. file formats, metadata schemas, ISO standards)
 * Databases (f.e. genomic databases, data repositories)
