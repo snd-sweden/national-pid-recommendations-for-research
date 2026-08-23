@@ -93,6 +93,7 @@ nav:
     - Data on PIDs:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
+        - FAIRsharing: data-on-pids/fairsharing.md
         - Handle: data-on-pids/handle.md
         - ORCID: data-on-pids/orcid.md
         - RAiD: data-on-pids/raid.md
