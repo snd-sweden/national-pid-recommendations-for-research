@@ -1,8 +1,8 @@
 # PID ecosystem
 
-_Last updated: 2026-03-30_
+_Last updated: 2026-08-20_
 
-A *PID ecosystem*, also called a *PID stack* refers to the layered set of technologies, infrastructures, services and actors that together enable the creation, resolution, management, and use of PIDs. The PID stack as described here was defined in the FAIR-IMPACT project.[@rep-D33Guidelines-24]
+A *PID ecosystem*, also called a *PID stack*, refers to the layered set of technologies, infrastructures, services and actors that together enable the creation, resolution, management, and use of PIDs. The PID stack as described here was defined in the FAIR-IMPACT project.[@rep-D33Guidelines-24]
 
 ## Scheme
 A *PID Scheme* defines the basic architecture of the PID, such as the basic template of its composition. It may also contain metadata schemas for metadata that is required or possible to embed together with the PID.
@@ -12,7 +12,7 @@ A *PID Authority* governs the core concepts and backbone infrastructure of the P
 
 ## Standards Body
 
-The strategic direction of a PID system may in some cases be controlled by a separate *PID Standards Body*, developing standards that define core aspects of the PID system. The Standards Body may define a [kernel metadata](kernel-metadata.md) schema that in some cases may be extended by other actors in the PID ecosystem.
+The strategic direction of a PID system may in some cases be controlled by a separate *PID Standards Body*, developing and/or approving standards that define core aspects of the PID system. The Standards Body may define a [kernel metadata](kernel-metadata.md) schema that in some cases may be extended by other actors in the PID ecosystem.
 
 ## Provider
 A *PID Provider* makes it possible for PID Owners to register PIDs and PID Users to make use of existing registered PIDs. The Provider will often maintain their own infrastructure for storing and managing the PIDs that have been registered through the provider. In many cases, the PID Provider will facilitate PID registration using a hierarchical model, where organisations sign up to manage PIDs for their respective users. 

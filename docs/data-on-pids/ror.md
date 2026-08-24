@@ -1,6 +1,6 @@
 # ROR ID
 
-_Last updated: 2025-05-08_
+_Last updated: 2026-08-18_
 
 ROR ID (Research Organization Registry ID) is a persistent identifier for organisations relating to research. These may be research-performing organisations such as universities or research institutes, research funders, research infrastructures, government agencies and other types of organisational entities that relate to the research process.
 
@@ -15,14 +15,14 @@ ROR ID (Research Organization Registry ID) is a persistent identifier for organi
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Research Organization Registry ID**   ||
 | Abbreviated name                                                                        | **ROR ID, ROR**                         ||
-| Intended use                                                                            | **Research organisations**              | Universities, research institutes, research funders, research infrastructures, etc. |
+| Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)                        | **Research organisations**              | Universities, research institutes, research funders, research infrastructures, etc. |
 | Based on other PID system(s)                                                            | **No**                                  ||
 | Example                                                                                 | **03zttf063**                           ||
 | Example with resolver                                                                   | <https://ror.org/03zttf063>             ||
 | Case sensitive                                                                          | **Yes**                                 ||
 | General resolver                                                                        | <https://ror.org/>                      ||
 | May use custom resolver                                                                 | **Only with data dump cached locally**  ||
-| Accompanying metadata kernel                                                            | **Yes**                                 | As described in currently supported versions of the ROR Schema |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | As described in currently supported versions of the ROR Schema |
 | Inception                                                                               | **2019**                                ||
 | Standard                                                                                | **No**                                  ||
 | Supersedes                                                                              | **GRID ID**                             ||

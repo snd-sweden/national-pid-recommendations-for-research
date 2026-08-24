@@ -1,6 +1,6 @@
 # Handle
 
-_Last updated: 2025-05-08_
+_Last updated: 2026-08-18_
 
 The Handle System is a basic PID infrastructure that may be used to create PIDs called _handles_ to refer to generic digital objects, including but not limited to documents, web pages, file archives, structured metadata, etc. Each handle is made up of a numeric prefix and a unique suffix. The handle itself is not designed to contain metadata describing the nature of the object, since its primary purpose is to serve as a transparent link redirecting the user to the target object.
 
@@ -17,13 +17,13 @@ Many infrastructures build upon the Handle System, including several other PID s
 | Parameter                                                                               | Value                                       | Details |
 | --------                                                                                | -------                                     | ------- |
 | Full name                                                                               | **Handle, Handle System**                   ||
-| Intended use                                                                            | **Generic digital objects**                 | Any digital object accessible with an URI |
+| Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)                        | **Generic digital objects**                 | Any digital object accessible with an URI |
 | Example                                                                                 | **20.1000/105**                             ||
 | Example with resolver                                                                   | <http://hdl.handle.net/20.1000/105>         ||
 | Case sensitive                                                                          | **Yes (default)**                           | Implementation dependent |
 | General resolver                                                                        | <http://hdl.handle.net>                     ||
 | May use custom resolver                                                                 | **Yes**                                     | As part of a _Local Handle Service_ |
-| Accompanying metadata kernel                                                            | **No**                                      | Metadata should be delivered by the handle target if needed |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **No**                                      | Metadata should be delivered by the handle target if needed |
 | Inception                                                                               | **1994**                                    ||
 | Standard                                                                                | **RFC 3650**                                | <https://doi.org/10.17487%2FRFC3650> |
 | Standard                                                                                | **RFC 3651**                                | <https://doi.org/10.17487%2FRFC3651> |
