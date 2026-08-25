@@ -70,14 +70,14 @@ nav:
         - Researchers & contributors: landscape-analysis/researchers-contributors.md
         - Organisations: landscape-analysis/organisations.md
         - Publications: landscape-analysis/publications.md
-#        - Data: landscape-analysis/research-data.md
+        - Data: landscape-analysis/research-data.md
         - Projects & activities: landscape-analysis/projects-activities.md
         - Funding & grants: landscape-analysis/funding-grants.md
 #        - Software & models: landscape-analysis/software-models.md
 #        - Simulations: landscape-analysis/simulations.md
 #        - Analyses: landscape-analysis/analyses.md
 #        - Data repositories: landscape-analysis/data-repositories.md
-#        - Research infrastructures: landscape-analysis/research-infrastructures.md
+        - Research infrastructures: landscape-analysis/research-infrastructures.md
         - Citations: landscape-analysis/citations.md
 #        - Conferences: landscape-analysis/conferences.md
 #        - Instruments & collection equipment: landscape-analysis/instruments.md
@@ -93,6 +93,7 @@ nav:
     - Data on PIDs:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
+        - ePIC: data-on-pids/epic.md
         - FAIRsharing: data-on-pids/fairsharing.md
         - Handle: data-on-pids/handle.md
         - ORCID: data-on-pids/orcid.md
