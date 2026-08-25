@@ -51,7 +51,7 @@ ePIC distinguishes production prefixes from test or non-persistent prefixes. Und
 | [PID Standards Body](../pid-concepts/pid-ecosystem.md#standards-body) | **RFC-based** (Internet Engineering Task Force, Corporation for National Research Initiatives) | <https://rfc-editor.org/> <https://www.cnri.reston.va.us/> |
 | [PID Multi-Primary Administrator](../pid-concepts/pid-ecosystem.md#multi-primary-administrator) | **ePIC Consortium** | <https://www.pidconsortium.net> |
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider)             | **ePIC member organisations and ePIC-certified service providers**    | <https://www.pidconsortium.net/?page_id=74> |
-| [PID Provider for Sweden](../pid-concepts/pid-ecosystem.md#provider)  | **Swedish National Data Service**                                     | <https://snd.se/tjanster/epic-pid> |
+| [PID Provider for Sweden](../pid-concepts/pid-ecosystem.md#provider)  | **Swedish National Data Service**                                     | <https://snd.se/en/services/epic-pid> |
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)               | (Institutions, projects, and communities maintaining ePIC PIDs under an allocated prefix) ||
 
 ## References
