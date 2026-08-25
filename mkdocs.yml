@@ -2,7 +2,7 @@ site_name: National PID recommendations for research - Sweden
 repo_url: https://github.com/snd-sweden/national-pid-recommendations-for-research/
 repo_name: national-pid-recommendations-for-research
 #docs_dir: './pid/'
-copyright: 'Swedish National Data Service & other contributors 2025 | <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
+copyright: 'Swedish National Data Service & other contributors 2026 | <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a>'
 
 theme:
     name: material
@@ -72,7 +72,7 @@ nav:
         - Publications: landscape-analysis/publications.md
 #        - Data: landscape-analysis/research-data.md
         - Projects & activities: landscape-analysis/projects-activities.md
-        - Funding: landscape-analysis/funding.md
+        - Funding & grants: landscape-analysis/funding-grants.md
 #        - Software & models: landscape-analysis/software-models.md
 #        - Simulations: landscape-analysis/simulations.md
 #        - Analyses: landscape-analysis/analyses.md
@@ -93,10 +93,12 @@ nav:
     - Data on PIDs:
         - data-on-pids/index.md
         - DOI: data-on-pids/doi.md
+        - FAIRsharing: data-on-pids/fairsharing.md
         - Handle: data-on-pids/handle.md
         - ORCID: data-on-pids/orcid.md
         - RAiD: data-on-pids/raid.md
         - ROR ID: data-on-pids/ror.md
+        - RRID: data-on-pids/rrid.md
         - SWHID: data-on-pids/swhid.md
         - URN:NBN: data-on-pids/nbn.md
     - PID actors in Sweden:
