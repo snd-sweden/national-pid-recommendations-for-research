@@ -66,8 +66,6 @@ Example: The _Karolinska Institutet Data Repository (KI DR)_ has a FAIRsharing _
 
 ## Swedish national level identifiers
 
-Swedish organisation numbers, Swedish Research Council infrastructure records, local service catalogue identifiers and access-management attributes can be useful administrative or operational references.
-
 ### Swedish organisation number (organisationsnummer)
 
 🟢 Active
