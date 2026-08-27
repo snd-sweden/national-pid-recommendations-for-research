@@ -70,7 +70,7 @@ RAiD records are intended for project information that can ultimately be made pu
 
 RAiD makes use of the [DataCite DOI infrastructure](https://support.datacite.org/docs/raids), meaning that a RAiD is also a valid DOI and that a core subset of its kernel metadata is registered with DataCite. However, the full RAiD metadata record is maintained by the RAiD service itself. RAiD should therefore be understood as a specialised PID system built on and extending DOI infrastructure, and should not be confused with a regular DOI assigned to a project landing page.
 
-RAiDs are created and managed through _RAiD Service Points_ that may be set up to serve specific communities, such as a discipline-specific research infrastructures, research institutes or universities. These Service Points are administered by regional _RAiD Registration Agencies_. At the moment, Registration Agencies are being created in the EU, UK and US, while the Oceanian region is already up and running.
+RAiDs are created and managed through _RAiD Service Points_ that may be set up to serve specific communities, such as a discipline-specific research infrastructures, research institutes or universities. These Service Points are administered by regional _RAiD Registration Agencies_. At the moment, Registration Agencies are being created in the EU, UK, US and Canada, while the Oceanian region is already up and running.
 
 RAiD was created by the [Australian Research Data Commons](https://ardc.edu.au/), a NPO formed through the National Collaborative Research Infrastructure Strategy (NCRIS). ARDC is currently developing the RAiD standard as well as acting as the global _RAiD Registration Authority_, registering and onboarding new _RAiD Registration Agencies_.
 

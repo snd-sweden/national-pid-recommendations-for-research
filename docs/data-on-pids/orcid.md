@@ -8,14 +8,14 @@ It allows for identification and disambiguation of authors, and the correspondin
 
 Individuals may register and maintain their own ORCID records. Organisational members may create or modify ORCID records tied to affiliated individuals through the Member API.
 
-[Sunet](https://sunet.se/) maintains a [Swedish ORCID Consortium](https://sunet.se/services/identifiering/orcid), and several of the larger Swedish research performing organisations are Consortia Members. Consortia Members will gain access to the full set of organisational features through the API.
+[Sunet](https://sunet.se/) maintains a [Swedish ORCID Consortium](https://sunet.se/services/identifiering/orcid), and several of the larger Swedish research performing organisations are Consortium Members. Consortia Members will gain access to the full set of organisational features through the API.
 
 ## Where to get started as a Swedish organisation?
 | Use case                                                                   | Contact                           | URL |
 | --------                                                                   | -------                           | -------                                    |
 | Let individuals create an ORCID record   | Create your ORCID iD                  | <https://orcid.org/register>        |
 | Register as an organisational member (Direct Member)                            | Become an Organizational Member   | <https://info.orcid.org/become-a-member/>  |
-| Join the Sunet ORCID Consortium (as a Consortia Member)              | Sunet Services: ORCID   | <https://www.sunet.se/services/identifiering/orcid>  |
+| Join the Sunet ORCID Consortium (as a Consortium Member)              | Sunet Services: ORCID   | <https://www.sunet.se/services/identifiering/orcid>  |
 
 ## PID Parameters
 | Parameter                                                                               | Value                                   | Details |
@@ -29,7 +29,7 @@ Individuals may register and maintain their own ORCID records. Organisational me
 | Case sensitive                                                                          | **No**                                 ||
 | General resolver                                                                        | <https://orcid.org/>                      ||
 | May use custom resolver                                                                 | **No**  ||
-| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | As described in the ORCID Record Schema |
+| Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | As described in the _ORCID Record Schema_. |
 | Inception                                                                               | **2012**                                ||
 | Standard                                                                                | **ISO 27729**                                  | <https://www.iso.org/obp/ui/en/#!iso:std:87177> Note: ORCIDs confirm to the format of the ISNI Schema but are otherwise separate from ISNI. |
 | Documentation                                                                           | **ORCID Documentation**                   | <https://info.orcid.org/documentation/> |
