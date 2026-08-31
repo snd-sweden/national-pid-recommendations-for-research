@@ -92,6 +92,7 @@ nav:
 #        - recommendations/index.md
     - Data on PIDs:
         - data-on-pids/index.md
+        - ARK: data-on-pids/ark.md
         - DOI: data-on-pids/doi.md
         - ePIC: data-on-pids/epic.md
         - FAIRsharing: data-on-pids/fairsharing.md

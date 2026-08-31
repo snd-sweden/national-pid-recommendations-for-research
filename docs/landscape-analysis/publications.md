@@ -9,7 +9,9 @@ The PID landscape for traditional research publications may be considered quite 
 ## Generic PIDs for digital publications
 
 ### DOI
+
 🟢 Active  
+
 A [DOI (Digital Object Identifier)](../data-on-pids/doi.md) is a unique and persistent alphanumeric string that may be assigned to digital publications such as journal articles, books, research reports and many other scholarly works. 
 
 DOIs take the form of a string of numbers, letters and symbols prefixed with `10.` followed by a registrant code and a suffix, such as `10.1234/abcde.5678`. The full DOI is often presented as a URL link including a DOI resolver, such as: <https://doi.org/10.1234/abcde.5678>, ensuring an unambiguous link to a publication. 
@@ -21,16 +23,37 @@ It should be noted that the usage scope of DOIs is wider than just publications 
 There are several [PID Providers](../pid-concepts/pid-ecosystem.md) for DOIs. For research publications such as journal articles and book chapters, the most common global PID Provider is CrossRef.
 
 ### Handle
+
 🟢 Active  
+
 A [Handle](../data-on-pids/handle.md) is a basic persistent identifier providing redirection to an object. Handles are assigned to diverse publications such as journal articles, technical reports and books. They are widely adopted in many research sectors, such as in the cultural heritage sector and humanities.
 
 A Handle consists of a prefix issued by the Handle.net registry and a suffix that uniquely identifies the handle under that prefix, for example `20.500.12703/5377`. It will be registered in the Global Handle Registry and will be able to generate a persistent link with the appropriate resolver: <https://hdl.handle.net/20.500.12703/5377>
 
 The core Handle system is also used to provide the base infrastructure of many other PID systems. While such systems may use the Handle system internally, they often extend the Handle infrastructure considerably and should be considered unique PID systems of their own.
 
+### ARK
+
+🟢 Active
+
+[ARK](../data-on-pids/ark.md) (_Archival Resource Key_) is a PID system used by archives, libraries, museums, government agencies and many other organisations and infrastructures. ARKs can identify digital objects as well as physical objects and is thus very wide in scope. ARKs may be used for research publications, but are more commonly used for source materials and digitised objects, such as archival or cultural heritage materials.
+
+Creating ARK-based workflows may be relevant for an organisation that wants a to run a flexible identifier scheme by itself, while still enabling global PID resolution. Implementing ARK requires setting up and maintaining a local PID infrastructure. 
+
+ARK may be especially useful for institutions managing collection-based materials, where the maintainer wants to define unique identifier patterns or hierarchies. It supports custom patterns within the ARK core identifier, or the creation of object subdivisions using ARK qualifiers.
+
+An organisation wanting to use ARK will register for a NAAN (Name Assigning Authority Number), acting as the root namespace for the organisation in the ARK scheme. It may then implement core identifier patterns for its specific use case. 
+
+**Example:** The NAAN `ark:29072` has been registered by the _Bodleian Library_ of the University of Oxford, and `ark:/29072/ora_724ce67f51034b649ccb953d1e81b540` is an ARK referring to a bibliographic journal article entry in the _Oxford University Research Archive_. It may be resolved using the global ARK resolver: <https://n2t.net/ark:/29072/ora_724ce67f51034b649ccb953d1e81b540>
+
+
+
+
 ### National Bibliography Number (URN:NBN)
+
 🟢 Active  
-[NBN (National Bibliography Number)](../data-on-pids/nbn.md) is a generic PID for digital publications. 
+
+[NBN](../data-on-pids/nbn.md) (_National Bibliography Number_) is a generic PID for digital publications. 
 It uses the [URN scheme](https://en.wikipedia.org/wiki/Uniform_Resource_Name) and is therefore commonly referred to as **URN:NBN**.
 
 URN:NBN has been implemented in several European countries as part of an effort to give identifiers to all publications included in the national bibliographic cataloguing of a country, most often coordinated by the respective national libraries. NBNs may be systematically assigned to new publications in certain infrastructures, and is also often used to retroactively provide a resolvable PID for digital publications not already having been assigned identifiers, such as an ISBN or a DOI.

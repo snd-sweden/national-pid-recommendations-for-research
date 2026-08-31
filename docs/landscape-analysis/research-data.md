@@ -1,6 +1,6 @@
 # Research data
 
-_Last updated: 2026-06-27_
+_Last updated: 2026-06-31_
 
 [TODO: Add references]: #
 
@@ -110,7 +110,7 @@ This is partial data from attempts to extract various petroleum-related mentions
 
 🟢 Active
 
-[ARK](https://arks.org/) (_Archival Resource Key_) is a PID system used by archives, libraries, museums, government agencies and many other organisations and infrastructures. It has seen widespread use in cultural heritage institutions, but is not limited in scope to them. ARKs can identify digital or conceptual objects as well as physical objects, and may be used for research data where the maintaining organisation wants a flexible identifier scheme under its own namespace and optionally its own resolver.
+[ARK](../data-on-pids/ark.md) (_Archival Resource Key_) is a PID system used by archives, libraries, museums, government agencies and many other organisations and infrastructures. It has seen widespread use in cultural heritage institutions, but is not limited in scope to them. ARKs can identify digital or conceptual objects as well as physical objects, and may be used for research data where the maintaining organisation wants a flexible identifier scheme under its own namespace and optionally its own resolver.
 
 ARKs are designed to support persistence commitments and metadata access patterns controlled by the assigning organisation. They can be suitable for data collections, archival material and repository objects where long-term stewardship is handled by an institution with an established preservation mandate.
 
