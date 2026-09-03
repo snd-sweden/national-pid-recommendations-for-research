@@ -71,9 +71,9 @@ nav:
         - Organisations: landscape-analysis/organisations.md
         - Publications: landscape-analysis/publications.md
         - Research data: landscape-analysis/research-data.md
+        - Software & models: landscape-analysis/software-models.md
         - Projects & activities: landscape-analysis/projects-activities.md
         - Funding & grants: landscape-analysis/funding-grants.md
-#        - Software & models: landscape-analysis/software-models.md
 #        - Simulations: landscape-analysis/simulations.md
 #        - Analyses: landscape-analysis/analyses.md
 #        - Data repositories: landscape-analysis/data-repositories.md

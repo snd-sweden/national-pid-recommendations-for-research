@@ -26,7 +26,9 @@ A globally available SWHID minting and archival service is provided by the Softw
 | Example                                                                                 | **swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd** {: colspan=2 } ||
 | Example with resolver                                                                   | [https://archive.softwareheritage.org/swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd](https://archive.softwareheritage.org/swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd) {: colspan=2 }||
 | Case sensitive                                                                          | **Partially**                           | Core identifier uses case-insensitive hexadecimal notation, but some use cases may embed file names |
-| General resolver                                                                        | <https://archive.softwareheritage.org/> ||
+| General resolver                                                                        | <https://archive.softwareheritage.org/> | Full support including context or fragment qualifiers |
+| Alternate resolver #1 | http://identifiers.org/ | Supports only SWHID core identifier, no qualifiers |
+| Alternate resolver #2 | http://n2t.org/ | Supports only SWHID core identifier, no qualifiers |
 | May use custom resolver                                                                 | **Yes**                                 | Supports creation of independently hosted instances of the SWHID infrastructure. |
 | Accompanying [metadata kernel](../pid-concepts/kernel-metadata.md)                      | **Yes**                                 | As described in the SWHID specification |
 | Inception                                                                               | **2018**                                ||

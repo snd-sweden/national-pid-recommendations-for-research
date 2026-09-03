@@ -1,6 +1,6 @@
 # Publications
 
-_Last updated: 2025-11-12_
+_Last updated: 2026-08-31
 
 Persistent identifiers for publications uniquely and permanently identify scholarly works such as journal articles, books and other academic works in the digital environment. They ensure consistent access, accurate citation and facilitate research sharing and collaboration.
 
