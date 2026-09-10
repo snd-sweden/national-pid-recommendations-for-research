@@ -1,6 +1,6 @@
 # Publications
 
-_Last updated: 2026-08-31
+_Last updated: 2026-08-31_
 
 Persistent identifiers for publications uniquely and permanently identify scholarly works such as journal articles, books and other academic works in the digital environment. They ensure consistent access, accurate citation and facilitate research sharing and collaboration.
 
@@ -12,7 +12,7 @@ The PID landscape for traditional research publications may be considered quite 
 
 🟢 Active  
 
-A [DOI (Digital Object Identifier)](../data-on-pids/doi.md) is a unique and persistent alphanumeric string that may be assigned to digital publications such as journal articles, books, research reports and many other scholarly works. 
+A [DOI](../data-on-pids/doi.md) (Digital Object Identifier)is a unique and persistent alphanumeric string that may be assigned to digital publications such as journal articles, books, research reports and many other scholarly works. 
 
 DOIs take the form of a string of numbers, letters and symbols prefixed with `10.` followed by a registrant code and a suffix, such as `10.1234/abcde.5678`. The full DOI is often presented as a URL link including a DOI resolver, such as: <https://doi.org/10.1234/abcde.5678>, ensuring an unambiguous link to a publication. 
 
@@ -45,9 +45,6 @@ ARK may be especially useful for institutions managing collection-based material
 An organisation wanting to use ARK will register for a NAAN (Name Assigning Authority Number), acting as the root namespace for the organisation in the ARK scheme. It may then implement core identifier patterns for its specific use case. 
 
 **Example:** The NAAN `ark:29072` has been registered by the _Bodleian Library_ of the University of Oxford, and `ark:/29072/ora_724ce67f51034b649ccb953d1e81b540` is an ARK referring to a bibliographic journal article entry in the _Oxford University Research Archive_. It may be resolved using the global ARK resolver: <https://n2t.net/ark:/29072/ora_724ce67f51034b649ccb953d1e81b540>
-
-
-
 
 ### National Bibliography Number (URN:NBN)
 

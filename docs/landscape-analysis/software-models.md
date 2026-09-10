@@ -1,6 +1,6 @@
 # Research software and models
 
-_Last updated: 2026-09-03_
+_Last updated: 2026-09-10_
 
 Research software could be considered being any software used in the research process. It may be:
 
@@ -38,7 +38,7 @@ In machine learning and AI-based workflows, **models** may be trained from scrat
 
 Models will often be large files in binary formats, and distribution and identification of models used as research software share many traits with specific software releases created as file archives. 
 
-Moreover, the specific environment in which the model was used and/or trained needs to be specified, such as training data used for training the model, input data used to produce a result using the model, and the specific hardware and software environment used. This is similar to other types of reproducibility packaging and identification of research software.
+Moreover, the specific environment in which the model was used and/or trained in needs to be specified, such as details on the training data used for training the model, the input data used to produce a result using the model, and the specific hardware and software environment used. This is similar to other types of reproducibility packaging and identification of research software.
 
 ### Reuse from package repositories or registries
 
@@ -48,15 +48,15 @@ Containerisation is a technique for packaging software as self-contained and com
 
 It is also possible that software has been created in the form of a valid package or library, or instructions for creating a container image, but has not been published in an official package repository or image registry. In such cases, it may be distributed in a source code repository or as a packaged release.
 
-When using package repositories and image registries, identifying the specific package or image along with the specific version used is important for research software. A canonical name along with a version tag is most often available. Development tools for programming and software deployment may often enable reliable and automated recreation of a specific processing environment using such package/image names and versions.
+When using package repositories and image registries, identifying the specific package or image along with the specific version used is important for research software. A canonical name along with a version tag is most often available. Development tools for programming and software deployment may often enable reliable and automated recreation of specific processing environments using such package/image names and versions.
 
 ### Hosted live applications
 
-Research software may be hosted as **live applications** that can run in a web browser using specific hosting solutions. This may be used to allow for reproduction of results, implementation of a methodology and workflow, visualisation, collaboration, data collection or other purposes. The applications may be running constantly, or a user session may be started up at an access point when a user requests it. Such applications need to be identified in a persistent manner.
+Research software may be hosted as **live applications** that can run in a web browser using specific hosting solutions. This may be used to allow for reproduction of results, implementation of a methodology and workflow, visualisation, collaboration, data collection or other purposes. The applications may be running constantly, or a user session may be started up at an access point when the user requests it. Such applications need to be identified in a persistent manner.
 
 ### Mentioning as a generic tool or solution
 
-Research software is often mentioned in broader terms as **generic tools or solutions** when describing a method, process or conducting planning. This may refer to an existing package, product or solution, i.e. "the transcripts were cleaned using the word processor _X_", "survey data will be collected using the survey tool _Y_", etc. The researchers themselves may not have generated any research software artifacts that need specific identification, or they may not yet have done so at the time of making a reference to the software tool or solution. Nevertheless, needs to clearly identify the software, specific versions of it, and to prevent possible disambiguation will remain.
+Research software is often mentioned in broader terms as **generic tools or solutions** when describing a method, process or conducting planning. This may refer to an existing package, product or solution, i.e. "the transcripts were cleaned using the word processor _X_", "survey data will be collected using the survey tool _Y_", etc. The researchers themselves may not have generated any research software artifacts that need specific identification, or they may not yet have done so at the time of making a reference to the software tool or solution. Nevertheless, in most cases there is a need to clearly identify the software, the specific version, and to prevent possible disambiguation.
 
 ## International PIDs and identifiers
 
@@ -75,7 +75,7 @@ The landing page of the SWHID PID target will provide a persistent representatio
 
 The [Software Heritage Archive](https://www.softwareheritage.org) has been set up as a globally available infrastructure and SWHID minting service, that will make a persistent copy of the software distribution and/or source code being identified at the time of creating the SWHID[@conf-ArchivingReferencingSource-20].
 
-A SWHID may identify a full code repository, or pinpoint specific versions, releases, commits, directories, files or excerpts of source code within it. This corresponds to different SWHID subtypes, or a combination of them used as qualifiers.
+A SWHID may identify a full code repository, or pinpoint specific versions, releases, commits, directories, files or excerpts of source code within it. This corresponds to different SWHID core identifier subtypes, or a combination of core identifiers and additional qualifiers.
 
 The characters in the SWHID core identifier are computed from the contents of the target that it is identifying, making it an intrinsic PID. Qualifiers added to the SWHID may be used to pinpoint subdivisions or fragments of the software object.
 
@@ -118,15 +118,15 @@ An example of this is the imaging software suite _ImageJ_ being assigned the RRI
 
 **Example:** The article "The GBA variant E326K is associated with alpha-synuclein aggregation and lipid droplet accumulation in human cell lines" makes use of RRIDs for software: <https://doi.org/10.1093/hmg/ddac233>
 
-The RRIDs are here referred using compact identifiers without a resolver. The software references include:
+The RRIDs are here referred to using compact identifiers without a resolver URL. The software references include:
 
 Micro-Manager with `RRID:SCR_000415`  
 ImageJ with `RRID:SCR_003070`  
 GraphPad Prism with `RRID:SCR_002798`
 
-Since the RRID entiries do not pinpoint software versions, in this case the authors added some manual information on versions within the article text.
+Since the RRID entries themselves do not pinpoint specific software versions, in this case the authors also added some details on versions within the article text.
 
-**Example:** The article "Allele-specific endogenous tagging and quantitative analysis of β-catenin in colorectal cancer cells" uses a resource table for several of the entities mentioned, including software: <>
+**Example:** The article "Allele-specific endogenous tagging and quantitative analysis of β-catenin in colorectal cancer cells" uses a resource table for several of the entities mentioned, including software: <https://doi.org/10.7554/eLife.64498>
 
 The resource table is a common format for making references in several disciplines. In this article, it identifies the following software as generic tools using RRID compact identifiers:
 
@@ -143,4 +143,36 @@ The resource table is a common format for making references in several disciplin
 
 ## Repository packages
 
+Software distributed in official package repositories, such as libraries and modules meant for direct use in a specific programming environment, will most often be identified by a canonical **package name** along with a specific **package version**. The package repository will most often also hold metadata on a cryptographic checksum for a specific package version, providing additional venues of disambiguiation.
+
+While not being PIDs, these are used as stable identifiers in descriptions as well as in source code and automated workflows that fetch packages from such repositories. Detailed specifications of repository packages may be used to reconstruct environments necessary to run research software, removing the need to constantly redistribute common building blocks.
+
+Specifying the version is often needed to ensure compatibility. It should be noted that specifying the version _used_ is different from identifying what version is _required_ for a specific purpose, and both may be relevant to provide.
+
+Additionally, there may exist a need to identify other constraints, such as that a package needs to be prepared for a specific hardware architecture.
+
+**Example:** The Python module [**pandas**](https://pypi.org/project/pandas/) contains special functions for handling data organised in tabular formats, and is commonly used in research software written in Python. The pandas module is distributed using [PyPI](https://pypi.org) (Python Package Index), which is the official package repository for the Python language. The latest version of pandas at the time of writing is **3.0.5**.
+
+The canonical package name `pandas` will provide sufficient information to identify and obtain the package in general, f.e. using the standard package manager, _pip_, which interacts with PyPI. 
+
+Identification of the package is often provided together with specifications of what version is needed to make research software using it run correctly. This may be done in several ways, such as using the [official requirements syntax](https://pip.pypa.io/en/stable/reference/requirements-file-format/). Using this, expressing that exactly version 3.0.5 is needed would be `pandas == 3.0.5`, while indicating that any version from 3 and onwards may be used would be `pandas >= 3.*`. Other requirements may be specified as detailed in the [dependency specification](https://peps.python.org/pep-0508/).
+
+**Example:** The package [**dplyr**](https://dplyr.tidyverse.org) is a library for the R programming language with functions for subsetting, rearranging and merging data in tabular data structures. It is a part of the larger _tidyverse_ meta-package and commonly used in research software. The [dplyr package](https://cran.r-project.org/web/packages/dplyr/) is published in the official [CRAN](https://cran.r-project.org/) repository for R packages.
+
+Just like in the previous example, the name `dplyr` will identify the package in general, but versions may be specified. This is done using various patterns depending on the command or dependency management tool used. Version _1.2.1_ of dplyr may for example be specified as `dplyr@1.2.1` in the R virtual environment tool _renv_.
+
 ## Container images and registries
+
+Research software intended for use in container orchestration workflows and virtualisation are often packaged in container images. These are distributed through _image registries_, infrastructures set up to serve the container images to container management and software deployment tools. The images may be used as building blocks in workflows, or as a starting point for additions and refinements resulting in new images. While this is similar to repository packages, a container image often contains a full processing environment including a compact operating system. The images follow containerisation standards in use by common management tools like Docker or Podman, and may be directly deployed in container orchestration environments such as Kubernetes.
+
+Container images will have an official **image name** which is supplemented by a **tag**, using the following pattern: `imagename:tag`. The image name is the canonical name of the software, and the tag may carry versioning information or other distinguishing information. As an example, specifying `imagename:latest` will identify the latest version of a container image that was added to the image registry. In addition to this, images often come in specific variants adapted for running on different CPU architectures, such as _amd64_ or _arm/v6_.
+
+Each container image also has a cryptographic checksum serving as an additional identification mechanism in addition to the name and tag. This is referred to as the **image ID**. The full image ID is usually a hash value created using the SHA-256 algorithm, expressed using 64 hexadecimal digits. For convenience, the practice of using an abbreviated **short image ID** is also very commonly used to represent the image in listings and comparisons. This is usually the first 12 hexadecimal digits of the full image ID.
+
+The image registries support deduplication, meaning that a specific image or subset of an image that is reused in many contexts only needs to be stored once in the registry. Here, hash identifiers are likewise used to identify the various deduplicated parts of the images, serving as stable references to fetch the data required for reconstructing a specific image.
+
+It should be noted that the images are associated with a specific image registry, and this registry may be publicly accessible and in widespread use, or a private image registry in a closed infrastructure. It is therefore important to provide details on the image registry if this has not been made obvious by workflows and documentation. The checksum-based image IDs will facilitate identification of images that may have been moved or used as a base to build other images, regardless if they exist in a public or private registry.
+
+A common method for specifying how to build a container image, or fetch and modify existing images, is the _Dockerfile_. This is a build script for container management tools that will often hold identifiers for images located in a specific registry.
+
+**Example:** The container image `alpine` contains a compact Linux distribution, Alpine Linux, which is often used as a foundation for building research software workflows. A specific version of the image, `alpine:3.23` is available from the common public image registry [Docker Hub](https://hub.docker.com/layers/library/alpine/3.23/images/sha256-f41a99d2d9c1e8abb8024d0ccd08ec3dfdd9b0e1526c276f7249cd455e7fcae5). The image `alpine:3.23` for the architecture `linux/amd64` has the short image ID `1beb0dc0a51d`, while the full image ID is the full SHA-256 checksum: `1beb0dc0a51de7ff38e3b5274078a2e0b81113ba5c7535e1a03d5913a5edbda3`.
