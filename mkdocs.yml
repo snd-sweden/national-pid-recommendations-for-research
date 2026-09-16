@@ -84,7 +84,7 @@ nav:
 #        - Samples: landscape-analysis/samples.md
 #        - Protocols: landscape-analysis/protocols.md
 #        - Workflows: landscape-analysis/workflows.md
-#        - Preregistrations: landscape-analysis/preregistrations.md
+        - Preregistrations: landscape-analysis/preregistrations.md
         - Licenses: landscape-analysis/licenses.md
 #        - Artefacts & finds: landscape-analysis/artefacts.md
 #        - Monuments: landscape-analysis/monuments.md
