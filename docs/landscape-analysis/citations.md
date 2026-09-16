@@ -2,7 +2,6 @@
 
 _Last updated: 2025-09-01_
 
-
 The availability of structured metadata describing citations is important for accurately mapping citation networks, tracking scholarly influence and research impact, and enhancing scientometric analyses across the research landscape. 
 
 It is used in the construction of scientific knowledge graphs (SKGs), a concept where open research information is used to create a graph network describing the relations between entities in the scientific ecosystem.
@@ -15,7 +14,8 @@ Unlike persistent identifiers such as DOIs, which uniquely identify specific wor
 
 ### Open Citation Identifier (OCI)
 
-🟢 Active  
+🟢 Active
+
 [Open Citation Identifiers](https://doi.org/10.6084/m9.figshare.7127816.v2) (OCIs) are identifiers that represent individual citations. They are created through metadata aggregation in the [OpenCitations](https://opencitations.net) infrastructure.[@jrnl-OpenCitationsInfrastructureOrganization-20]
 
 OCI is a globally unique, machine-readable persistent identifier assigned to citations indexed in open bibliographic sources. It features a simple structure, beginning with `oci:`, followed by two sequences of numbers separated by a dash. The first sequence encodes the citing resource, while the second encodes the cited resource. Both sequences include a prefix indicating the source database, such as Wikidata, Crossref, Dryad or OpenCitations. 
@@ -36,7 +36,8 @@ These actors and infrastructures do not specifically create PIDs for the citatio
 
 ### OpenAIRE Graph
 
-🟢 Active  
+🟢 Active
+
 [OpenAIRE Graph](https://graph.openaire.eu) is a bibliographic database and scientific knowledge graph. It aggregates open research information from various sources. It is maintained by [OpenAIRE](https://www.openaire.eu/) (Open Access Infrastructure for Research in Europe), an NPO coordinating a European network of repositories, archives and journals that support Open Access policies.
 
 OpenAIRE Graph tracks entities that may be classified as a Research product, Organization, Data Source, or Project. For Research products, OpenAIRE Graph records metadata on citations from different sources. 
@@ -47,21 +48,24 @@ At the time of writing, full citation relations from OpenAIRE Graph are only acc
 
 ### OpenAlex
 
-🟢 Active  
+🟢 Active
+
 [OpenAlex](https://openalex.org) is a bibliographic database maintained by the NPO [OurResearch](https://ourresearch.org). It builds upon the bibliographic data originally collected by Microsoft Academic Graph.
 
 OpenAlex stores citations as relations between individual works. For example, the article `10.1001/jamaneurol.2019.4914` has been assigned a work identifier within OpenAlex: `w3013207020`. To find other works with citations of this article, a lookup may be made using `cites:w3013207020` [through the web interface](https://openalex.org/works?page=1&filter=cites:w3013207020) or [using the OpenAlex API](https://api.openalex.org/works?page=1&filter=cites:w3013207020). 
 
 ### Microsoft Academic Graph
 
-🔴 Inactive  
+🔴 Inactive
+
 Microsoft Academic Graph was a bibliographic database maintained by Microsoft. It was sourced from Microsoft Academic / Microsoft Academic Search metadata, including citation relations. It was actively updated from 2016 to 2021.
 
 The metadata from Microsoft Academic Graph was released under an open license and merged into OpenAlex.
 
 ### Web of Science
 
-🟢 Active  
+🟢 Active
+
 The [Web of Science](https://clarivate.com/webofsciencegroup/) (WoS) by Clarivate contains a multidisciplinary proprietary database that tracks publications such as scholarly articles and book chapters. When a publication cites another within the database, WoS records this link, creating a network of citation relationships. 
 
 The citation metadata is also used within the separately packaged [Science Citation Index](https://clarivate.com/academia-government/scientific-and-academic-research/research-discovery-and-referencing/web-of-science/web-of-science-core-collection/science-citation-index-expanded/).
@@ -70,7 +74,8 @@ Access to the Web of Science is not free; it is a subscription-based service typ
 
 ### Scopus
 
-🟢 Active  
+🟢 Active
+
 [Scopus](https://www.elsevier.com/solutions/scopus) is a multidisciplinary abstract and citation database developed by Elsevier that indexes peer-reviewed literature, including scientific journal articles, conference papers and books. Its citation index tracks references within indexed documents. 
 
 Like Web of Science, access to Scopus is a paid service, typically available for end users through institutional subscriptions.

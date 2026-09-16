@@ -8,12 +8,14 @@ It uses the [URN scheme](https://en.wikipedia.org/wiki/Uniform_Resource_Name) an
 The the National Library of Sweden (KB) provides registration services for Swedish organisations in the `urn:nbn:se` namespace.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                                                   | Contact                           | URL |
 | --------                                                                   | -------                           | -------                                    |
 | Read about the Swedish national URN:NBN service   | National Library: URN:NBN service information       | <https://www.kb.se/isbn-och-utgivning/urnnbn.html>        |
 | Request a new organisational namespace for the Swedish national URN:NBN service   | National Library: URN:NBN service contact e-mail    | [e-plikt@kb.se](mailto:e-plikt@kb.se)        |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **National Bibliography Number**   ||
@@ -36,6 +38,7 @@ The the National Library of Sweden (KB) provides registration services for Swedi
 | Wikidata P-ID                                                                           | **P4109**                               | <https://www.wikidata.org/wiki/Property:P4109> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                                       |
 | --------                                                                                          | -------                           | -------                                   |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **URN:NBN**                | <https://datatracker.ietf.org/doc/html/rfc8458>   |

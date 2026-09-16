@@ -2,18 +2,20 @@
 
 _Last updated: 2026-08-23_
 
-[RRID](https://rrid.site/) (Research Resource Identifier) is a PID system created for unique identification of entities often referred to in life sciences research, making up specific RRID subtypes. Examples include reagents, f.e. organisms, antibodies, plasmids or cell lines. It is also used to identify specific core facilities and instruments, as well as tools and software packages.
+[RRID](https://rrid.site/) (Research Resource Identifier) is a PID system created for unique identification of entities often referred to in life sciences and physical sciences research, making up specific RRID subtypes. Examples include reagents, f.e. organisms, antibodies, plasmids or cell lines. It is also used to identify specific core facilities and instruments, as well as tools and software packages.
 
 RRIDs were introduced by the [Resource Identification Initiative](https://www.rrids.org/) and originated in the [SciCrunch](https://scicrunch.org) infrastructure run by the University of California. RRIDs.org is now run as an NPO.
 
 RRID subtypes are indexed in specific collaborating registries, such as [ABRF CoreMarketplace](https://coremarketplace.org) which registers core facilities and instruments. The RRID landing page may contain a link to a local entry in a specific registry or database.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                             | Contact                        | URL |
 | --------                             | -------                        | -------                        |
 | Add a new RRID resource to one of the RRID subtype registries | RRID Portal: Add a resource | <https://rrid.site/about/resource> |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Research Resource Identifier**           ||
@@ -41,6 +43,7 @@ RRID subtypes are indexed in specific collaborating registries, such as [ABRF Co
 | Wikidata P-ID                                                                           | **P9712**                                | <https://www.wikidata.org/wiki/Property:P9712> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                           |
 | --------                                                                                          | -------                           | -------                       |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **RRID System**                 | <https://www.rrids.org/current-project>     |

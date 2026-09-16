@@ -29,8 +29,6 @@ Identifying organisations with PIDs serve several core needs in the research eco
 
 Since research information is often subject to large-scale automated processing, the existence or absence of an unambiguous organisational PID may in many cases affect critical processes. An example of this is affiliational metadata, directly affecting scientometric analyses, research assessment, indicators and rankings.
 
-
-
 ## International PIDs and identifiers
 
 ### ROR ID 

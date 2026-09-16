@@ -11,12 +11,14 @@ _Last updated: 2026-08-23_
 FAIRsharing uses DataCite [DOI](doi.md) and is technically not a PID system by itself, but it is relevant to describe as a specifically scoped PID-based data source for research.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                             | Contact                        | URL |
 | --------                             | -------                        | -------                        |
 | Create a new record of a standard, database or policy  | Adding content in FAIRsharing | <https://fairsharing.org/new> |
 | Curate an existing record      | Request ownership of the record in the Actions menu                       | <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/how-to-update-a-record> |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **FAIRsharing DOI**           ||
@@ -37,6 +39,7 @@ FAIRsharing uses DataCite [DOI](doi.md) and is technically not a PID system by i
 
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                           |
 | --------                                                                                          | -------                           | -------                       |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **[Handle System](handle.md)**                 | <https://www.handle.net/>     |
@@ -46,4 +49,3 @@ FAIRsharing uses DataCite [DOI](doi.md) and is technically not a PID system by i
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider)                                         | **DataCite**                      | <https://datacite.org/>       |
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | The FAIRsharing team, University of Oxford                        | <https://fairsharing.org/communities#governance> |
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | (Individual record maintainers)                          ||
-

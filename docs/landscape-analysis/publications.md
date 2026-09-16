@@ -67,13 +67,16 @@ In Sweden, URN:NBN sub-namespaces for `urn:nbn:se` are [assigned by the National
 ## Preprints and manuscripts
 
 ### arXiv ID
-🟢 Active  
+
+🟢 Active
+
 The arXiv IDs are identifiers for articles in the open-access repository [arXiv](https://arxiv.org), which is mostly used in physics, mathematics, computer science and related fields. The articles uploaded in arXiv are mainly manuscripts and pre-prints being considered for publication in f.e. academic journals.
 
 The canonical form of arXiv identifiers is `arXiv:YYMM.number`, with a 4-digit or 5-digit integer number for records before or after January 2015, respectively. Specific versions are indicated by appending a version number, e.g. `arXiv:1501.00001v1` or `arXiv:0706.0001v2`. 
 
 ### medRxiv and bioRxiv ID
-🟢 Active  
+
+🟢 Active
 
 The open-access pre-print repositories medRxiv and bioRxiv serve a similar purpose to arXiv, but in the medical and life sciences respectively. They are both built upon the same infrastructure.
 
@@ -86,7 +89,9 @@ Thus, `bioRxiv:2025.08.06.668887` will correspond to the resolvable DOI: <https:
 ## Monographs (books)
 
 ### ISBN and eISBN
-🟢 Active  
+
+🟢 Active
+
 An ISBN (International Standard Book Number) is a unique code identifying a specific book, an edition of a book, audiobook or other monographic publication, facilitating cataloging, citation and distribution as well as distinguishing one edition from another.
 An ISBN can refer to a physical (ISBN) or digital object (eISBN) and consists of 10 or 13 digits (e.g. `9780857936936`). 
 
@@ -108,10 +113,13 @@ It is an 8-digit number prefixed with `ISSN:`, such as `ISSN:1234-5678` or `eISS
 In Sweden, ISSN identifiers for research publications may be [assigned by the National Library of Sweden (KB)](https://www.kb.se/isbn-och-utgivning/issn-.html). 
 
 ## Bibliographic database entries
+
 These are not identifiers for the digital publications themselves, but for bibliographic entries in databases describing the publications. Since they are providing further details on the actual publication, they may sometimes be used in reference entries.
 
 ### PMID and PMCID
-🟢 Active  
+
+🟢 Active
+
 PMIDs (PubMed IDs) are specific to articles indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov), and are commonly used for reference and citation of biomedical and life sciences research. PubMed is an open bibliographic database provided by the US National Institutes of Health.
 A PMID is composed of digits only, f.e. `31771602`, and will uniquely identify a bibliographic entry in PubMed.
 
@@ -120,9 +128,13 @@ While many entries are strictly bibliographic, note that PubMed also includes Pu
 Following the above example, the article proper is published in a journal, having been assigned the DOI: `10.1186/s12992-019-0499-1`.
 
 ### Web of Science Accession Number
-🟢 Active  
+
+🟢 Active
+
 Web of Science (WoS) accession numbers or IDs are unique identifiers for Clarivate's proprietary bibliographic database entries on journal articles, conference papers, book chapters and similar works within the Web of Science collection, used for referencing and retrieval. They consist of a series of alphanumeric characters, starting with `WOS:`, such as `WOS:000123456789`.
 
 ### Scopus EID
-🟢 Active  
+
+🟢 Active
+
 Scopus EID is an unique identifier for entries in Elsevier's proprietary bibliographic database, Scopus. It is used to refer to the bibliographic entry of each object (articles, book chapters etc.) indexed in Scopus. An example of a Scopus EID is  `2-s2.0-105009003666`, with `2-s2.0-` being a prefix for the current version of Scopus EID and `105009003666` being the unique identifier string for the bibliographic entry.

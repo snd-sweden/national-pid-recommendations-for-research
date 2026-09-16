@@ -5,12 +5,14 @@ _Last updated: 2026-08-18_
 ROR ID (Research Organization Registry ID) is a persistent identifier for organisations relating to research. These may be research-performing organisations such as universities or research institutes, research funders, research infrastructures, government agencies and other types of organisational entities that relate to the research process.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                                                   | Contact                           | URL |
 | --------                                                                   | -------                           | -------                                    |
 | Suggest adding a new organisation or metadata changes to an existing one   | ROR Request Form                  | <https://curation-request.ror.org/>        |
 | Suggest a large number of additions or changes                             | ROR Bulk Processing Spreadsheet   | <https://ror.org/registry/#bulk-requests>  |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Research Organization Registry ID**   ||
@@ -33,6 +35,7 @@ ROR ID (Research Organization Registry ID) is a persistent identifier for organi
 | Wikidata P-ID                                                                           | **P6782**                               | <https://www.wikidata.org/wiki/Property:P6782> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                                       |
 | --------                                                                                          | -------                           | -------                                   |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **ROR ID pattern**                | <https://ror.readme.io/docs/identifier>   |

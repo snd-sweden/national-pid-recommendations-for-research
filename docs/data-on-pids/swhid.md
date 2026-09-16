@@ -11,12 +11,14 @@ SWHID has been specifically designed to meet the need for identifying and preser
 A globally available SWHID minting and archival service is provided by the Software Heritage Archive, although anyone may set up their own SWHID service.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                                                   | Contact                           | URL |
 | --------                                                                   | -------                           | -------                                                                         |
 | Deposit source code and create a SWHID                                     | Save code now                     | <https://archive.softwareheritage.org/save/>                                    |
 | Automate the creation of SWHIDs through the Deposit API                    | Register account                  | <https://docs.softwareheritage.org/devel/swh-deposit/api/register-account.html> |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **SoftWare Hash IDentifier**            ||
@@ -25,7 +27,7 @@ A globally available SWHID minting and archival service is provided by the Softw
 | Based on other PID system(s)                                                            | **No**                                  ||
 | Example                                                                                 | **swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd** {: colspan=2 } ||
 | Example with resolver                                                                   | [https://archive.softwareheritage.org/swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd](https://archive.softwareheritage.org/swh:1:dir:df32c75242bf8d797ccd43af8ce8e294f35cd8fd) {: colspan=2 }||
-| Case sensitive                                                                          | **Partially**                           | Core identifier uses case-insensitive hexadecimal notation, but some use cases may embed file names |
+| Case sensitive                                                                          | **Partially**                           | Core identifier uses case-insensitive hexadecimal notation, but some qualifiers may embed file names |
 | General resolver                                                                        | <https://archive.softwareheritage.org/> | Full support including context or fragment qualifiers |
 | Alternate resolver #1 | http://identifiers.org/ | Supports only SWHID core identifier, no qualifiers |
 | Alternate resolver #2 | http://n2t.org/ | Supports only SWHID core identifier, no qualifiers |
@@ -41,6 +43,7 @@ A globally available SWHID minting and archival service is provided by the Softw
 | Wikidata P-ID                                                                           | **P6138**                               | <https://www.wikidata.org/wiki/Property:P6138> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                                       |
 | --------                                                                                          | -------                           | -------                                   |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **SWHID model**                   | <https://www.swhid.org/swhid-specification/latest/> |

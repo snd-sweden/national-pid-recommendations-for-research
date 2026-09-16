@@ -9,11 +9,13 @@ The ARK concept provides considerable flexibility for organisations, such as run
 ARK has seen widespread use in archival organisations and cultural heritage institutions, but is not limited in scope to them. A typical use case for ARK would be creating PIDs for the official records of an organisation, or the various objects in a catalogue. The ARK system is supported by the [ARK Alliance](https://arks.org/community/), a community coordinating development and maintaining the core infrastructure. It has not yet been codified by a standard and is currently a draft for a RFC.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                    | Contact                        | URL |
 | --------                                    | -------                        | -------                          |
 | Setting up a local ARK-based infrastructure    | Apply for a NAAN for ARK   | <https://arks.org/about/getting-started-implementing-arks/> |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                       | Details |
 | --------                                                                                | -------                                     | ------- |
 | Full name                                                                               | **Archival Resource Key**                   ||
@@ -33,6 +35,7 @@ ARK has seen widespread use in archival organisations and cultural heritage inst
 | Wikidata P-ID                                                                           | **P8091**                                   | <https://www.wikidata.org/wiki/Property:P8091> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                           |
 | --------                                                                                          | -------                           | -------                       |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **ARK System**                 | <https://datatracker.ietf.org/doc/draft-kunze-ark/>     |
@@ -40,4 +43,3 @@ ARK has seen widespread use in archival organisations and cultural heritage inst
 | [PID Standards Body](../pid-concepts/pid-ecosystem.md#standards-body)                             | **ARK Alliance WGs**  | <https://arks.org/community-groups/>          |
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider)                                         | (Local implementations)        ||
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | (Local implementations)        ||
-

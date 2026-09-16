@@ -60,7 +60,7 @@ RAiD has been codified by the ISO standard [ISO 23527:2022](https://www.iso.org/
 
 A real world example of a research project RAiD is `10.26259/ff442000`. Using the global resolver, the full RAiD may be accessed at: <https://raid.org/10.26259/ff442000>  
 
-From the kernel metadata of this RAiD, we can see that this is a research project with the title `Breathlessness Rapid Evaluation And THErapy (BREATHE)` conducted at the research organisation with the ROR ID <https://ror.org/02stey378>, which is _The University of Notre Dame Australia_. Furthermore, an individual has been designated as a _Principal or Chief Investigator_ (PI), with the ORCID <https://orcid.org/0000-0002-4582-7728>. 
+From the kernel metadata of this RAiD, we can see that this is a research project with the title _Breathlessness Rapid Evaluation And THErapy (BREATHE)_ conducted at the research organisation with the ROR ID <https://ror.org/02stey378>, which is _The University of Notre Dame Australia_. Furthermore, an individual has been designated as a _Principal or Chief Investigator_ (PI), with the ORCID <https://orcid.org/0000-0002-4582-7728>. 
 
 From the relational metadata, it is clear that this project is derived from an earlier research activity performing process evaluation, in turn having its own RAiD (`10.26259/5ed6f934`). When the project starts publishing outputs, they may also be referenced from the kernel metadata using relations, f.e. to each new article or dataset DOI.
 
@@ -121,7 +121,6 @@ The corresponding OpenAIRE Graph entry will then be available at: <https://explo
 A review of [entities indexed to date](https://explore.openaire.eu/search/find/projects) will reveal a nearly exclusive focus on externally funded projects. This means that currently, the entity is in practice more closely related to the [funding and grants](funding-grants.md) concept.
 
 However, in the [OpenAIRE Guidelines for CRIS Managers](https://openaire-guidelines-for-cris-managers.readthedocs.io/en/latest/), the infrastructure is supporting the CERIF _Project_ metadata model and entity, where metadata on funding is optional. Therefore, it appears that the OpenAIRE infrastructure has committed to support a more inclusive research activity concept for future development and indexing.
-
 
 <!-- TODO: possible move to recommendations:
 RAiD is the most purpose-specific international option and is designed to complement rather than replace grant identifiers, SweCRIS Project-IDs or local project numbers. A generic DataCite project DOI offers a technically simpler alternative but provides less project-specific governance and lifecycle functionality. Whichever model is used, the project PID should be linked to existing identifiers and to PIDs for contributors, organisations, funding and outputs.

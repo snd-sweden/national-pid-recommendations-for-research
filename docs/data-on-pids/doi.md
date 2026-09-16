@@ -43,4 +43,3 @@ DOI is a wide-spread PID system commonly in use for digital objects in research 
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider) #1                                      | **CrossRef**                      | <https://www.crossref.org/>   |
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider) #2                                      | **DataCite**                      | <https://datacite.org/>       |
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | (Consortia and individual organisations)                          ||
-

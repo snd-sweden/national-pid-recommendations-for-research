@@ -9,11 +9,13 @@ The Handle System is run as a decentralised infrastructure, with locally hosted 
 Many infrastructures build upon the Handle System, including several other PID systems. Examples of PIDs built on top of the Handle infrastructure include [DOI](doi.md) and ePIC. This is enabled by infrastructures being accredited as multi-primary administrators for a Handle implementation, making rich customisation possible.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                    | Contact                        | URL |
 | --------                                    | -------                        | -------                          |
 | Setting up a Handle-based infrastructure    | Handle.net Registry            | <https://handle.net/prefix.html> |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                       | Details |
 | --------                                                                                | -------                                     | ------- |
 | Full name                                                                               | **Handle, Handle System**                   ||
@@ -34,6 +36,7 @@ Many infrastructures build upon the Handle System, including several other PID s
 | Wikidata P-ID                                                                           | **P1184**                                   | <https://www.wikidata.org/wiki/Property:P1184> |
 
 ## PID Ecosystem
+
 | Component                                                                                         | Name                              | URL                           |
 | --------                                                                                          | -------                           | -------                       |
 | [PID Scheme](../pid-concepts/pid-ecosystem.md#scheme)                                             | **Handle System**                 | <https://www.handle.net/>     |
@@ -42,4 +45,3 @@ Many infrastructures build upon the Handle System, including several other PID s
 | [PID Multi-Primary Administrator](../pid-concepts/pid-ecosystem.md#multi-primary-administrator)   | (Implementation dependent)        ||
 | [PID Provider](../pid-concepts/pid-ecosystem.md#provider)                                         | (Implementation dependent)        ||
 | [PID Manager](../pid-concepts/pid-ecosystem.md#manager)                                           | (Implementation dependent)        ||
-

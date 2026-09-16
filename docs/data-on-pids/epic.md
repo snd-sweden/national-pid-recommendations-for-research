@@ -24,7 +24,7 @@ ePIC distinguishes production prefixes from test or non-persistent prefixes. Und
 | Abbreviated name                                                      | **ePIC PID, ePIC Handle**                             ||
 | Intended [scope](../pid-concepts/usage-scope.md) / PID target(s)      | **Generic digital research objects and collections**  | Particularly applicable to research data, intermediate outputs, fine-grained resources, and workflow objects. |
 | Based on other PID system(s)                                          | **[Handle System](handle.md)**                        | Uses Handle infrastructure and resolution. |
-| Handle namespace                                                      | **21**                                                | Used for new ePIC prefixes. Legacy ePIC prefixes in other Handle namespaces remain in use. |
+| Handle namespace                                                      | **21**                                                | Used for new ePIC prefixes. Legacy ePIC prefixes in other Handle namespaces remain in use, f.e. . |
 | Identifier syntax                                                     | **`<prefix>/<suffix>`**                               | The suffix must be unique within its prefix. |
 | Test/non-persistent prefix convention                                 | **`21.T...`**                                         | A capital `T` after the first dot marks an ePIC test or non-persistent prefix. |
 | Example                                                               | **21.012/xyz-123**                                    | Illustrative example used in the ePIC FAQ. |

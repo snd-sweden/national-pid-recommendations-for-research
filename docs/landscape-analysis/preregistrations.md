@@ -29,7 +29,7 @@ The possible metadata contents of a preregistration entry is detailed in the [Pr
 
 ClinicalTrials.gov employs a model where research organisations generally only are provided with a single account in the PRS entry system for submitting preregistrations. Therefore, researchers desiring to register their study will in most cases need to contact an individual or function serving as a local PRS Administrator for ClinicalTrials.gov.
 
-**Example:** The study _Postprandial Inflammation in Rheumatoid Arthritis (PIRA)_ conducted at the University of Gothenburg was registered on ClinicalTrials.gov in 2020, receiving the ID `NCT04247009`. After the study finished in 2021, four related publications have been added to the entry: https://clinicaltrials.gov/study/NCT04247009
+**Example:** The study _Postprandial Inflammation in Rheumatoid Arthritis (PIRA)_ conducted at the University of Gothenburg was registered on ClinicalTrials.gov in 2020, receiving the ID `NCT04247009`. After the study finished in 2021, four related publications have been added to the entry: <https://clinicaltrials.gov/study/NCT04247009>
 
 ### EU CT number
 

@@ -11,6 +11,7 @@ Individuals may register and maintain their own ORCID records. Organisational me
 [Sunet](https://sunet.se/) maintains a [Swedish ORCID Consortium](https://sunet.se/services/identifiering/orcid), and several of the larger Swedish research performing organisations are Consortium Members. Consortia Members will gain access to the full set of organisational features through the API.
 
 ## Where to get started as a Swedish organisation?
+
 | Use case                                                                   | Contact                           | URL |
 | --------                                                                   | -------                           | -------                                    |
 | Let individuals create an ORCID record   | Create your ORCID iD                  | <https://orcid.org/register>        |
@@ -18,6 +19,7 @@ Individuals may register and maintain their own ORCID records. Organisational me
 | Join the Sunet ORCID Consortium (as a Consortium Member)              | Sunet Services: ORCID   | <https://www.sunet.se/services/identifiering/orcid>  |
 
 ## PID Parameters
+
 | Parameter                                                                               | Value                                   | Details |
 | --------                                                                                | -------                                 | ------- |
 | Full name                                                                               | **Open Researcher and Contributor ID**   ||

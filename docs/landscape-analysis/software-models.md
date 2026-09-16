@@ -83,7 +83,7 @@ The characters in the SWHID core identifier are computed from the contents of th
 
 It is maintained in a Github repository at: <https://github.com/neuroscout/neuroscout>
 
-A **swh:dir** type SWHID has been created for the neuroscout repository, `swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817`. Doing this will also enable identification of several other elements of the repository. The swh:dir SWHID may be resolved at: <https://archive.softwareheritage.org/swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817>
+A **swh:dir** type SWHID has been created for the Neuroscout repository, `swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817`. Doing this will also enable identification of several other elements of the repository. The swh:dir SWHID may be resolved at: <https://archive.softwareheritage.org/swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817>
 
 A researcher group uses Neuroscout in their workflow and wants to identify the exact version they used in an analysis. They do this by using a SWHID identifying the specific revision used with a **swh:rev** type SWHID, in this case corresponding to a specific commit on Github, `ed79e9c` from September 2, 2022: `swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7`. This may be resolved at: <https://archive.softwareheritage.org/swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7>
 
