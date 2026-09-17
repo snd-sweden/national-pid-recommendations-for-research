@@ -50,8 +50,8 @@ markdown_extensions:
     - attr_list
 
 nav:
-    - National PID recommendations for research: index.md
-    - PID concepts:
+    - "1. National PID recommendations for research": index.md
+    - "2. PID concepts":
         - pid-concepts/index.md
         - What is a PID?: pid-concepts/what-is-pid.md
         - Persistence: pid-concepts/persistence.md
@@ -65,7 +65,7 @@ nav:
         - Landing pages: pid-concepts/landing-pages.md
         - Tombstone pages: pid-concepts/tombstone-pages.md
         - PID ecosystem: pid-concepts/pid-ecosystem.md
-    - Landscape analysis:
+    - "3. Landscape analysis":
         - landscape-analysis/index.md
         - Researchers & contributors: landscape-analysis/researchers-contributors.md
         - Organisations: landscape-analysis/organisations.md
@@ -76,11 +76,10 @@ nav:
         - Funding & grants: landscape-analysis/funding-grants.md
 #        - Simulations: landscape-analysis/simulations.md
 #        - Analyses: landscape-analysis/analyses.md
-#        - Data repositories: landscape-analysis/data-repositories.md
         - Research infrastructures: landscape-analysis/research-infrastructures.md
+#        - Instruments: landscape-analysis/instruments.md
         - Citations: landscape-analysis/citations.md
 #        - Conferences: landscape-analysis/conferences.md
-#        - Instruments & collection equipment: landscape-analysis/instruments.md
 #        - Samples: landscape-analysis/samples.md
 #        - Protocols: landscape-analysis/protocols.md
 #        - Workflows: landscape-analysis/workflows.md
@@ -88,9 +87,14 @@ nav:
         - Licenses: landscape-analysis/licenses.md
 #        - Artefacts & finds: landscape-analysis/artefacts.md
 #        - Monuments: landscape-analysis/monuments.md
-#    - Recommendations: 
+#    - "4. Recommendations": 
 #        - recommendations/index.md
-    - Data on PIDs:
+    - "5. PID actors in Sweden":
+        - pid-actors-sweden/index.md
+        - Sunet: pid-actors-sweden/sunet.md
+        - National Library of Sweden (KB): pid-actors-sweden/kb.md
+        - Swedish National Data Service (SND): pid-actors-sweden/snd.md
+    - "6. Data on PIDs":
         - data-on-pids/index.md
         - ARK: data-on-pids/ark.md
         - DOI: data-on-pids/doi.md
@@ -103,9 +107,4 @@ nav:
         - RRID: data-on-pids/rrid.md
         - SWHID: data-on-pids/swhid.md
         - URN:NBN: data-on-pids/nbn.md
-    - PID actors in Sweden:
-        - pid-actors-sweden/index.md
-        - Sunet: pid-actors-sweden/sunet.md
-        - National Library of Sweden (KB): pid-actors-sweden/kb.md
-        - Swedish National Data Service (SND): pid-actors-sweden/snd.md
 #    - Definitions: definitions/index.md
