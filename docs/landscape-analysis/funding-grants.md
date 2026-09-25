@@ -64,9 +64,7 @@ The [Grant Linking System](https://www.crossref.org/services/grant-linking-syste
 
 For example, the DOI `10.35802/107769` identifies a specific Wellcome Trust grant and resolves to a landing page describing the award, its recipient and its funder: <https://doi.org/10.35802/107769>. Grant DOIs may in turn be included in the metadata of resulting outputs (such as article or dataset DOIs), creating an explicit machine-readable relation between funding and outputs.
 
-The GLS became operational in 2019, following a 2017 Crossref board decision to prioritise funding metadata, and was developed together with the Funder Advisory Group and partners such as Europe PMC. As of the system's fifth anniversary, over 35 funders were participating, including Wellcome, the European Research Council, NWO (Dutch Research Council), the Austrian Science Fund (FWF) and the Japan Science and Technology Agency (JST), together registering well over 100,000 grants.
-
-Coverage remains dependent on individual funders actively registering their grants; many funders, including the major Swedish research funders, do not currently participate.
+The GLS became operational in 2019, following a 2017 Crossref board decision to prioritise funding metadata, and was developed together with the Funder Advisory Group and partners such as Europe PMC. Coverage remains dependent on individual funders actively registering their grants; many funders, including the major Swedish research funders, do not currently participate.
 
 ### CORDIS EU project grants
 

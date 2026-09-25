@@ -79,13 +79,17 @@ A SWHID may identify a full code repository, or pinpoint specific versions, rele
 
 The characters in the SWHID core identifier are computed from the contents of the target that it is identifying, making it an intrinsic PID. Qualifiers added to the SWHID may be used to pinpoint subdivisions or fragments of the software object.
 
+Since the very same files may be cloned, migrated and made available from many sources, a SWHID target object does not encode the source origin itself within the target. This should be provided as an origin qualifier with the SWHID whenever relevant.
+
 **Example:** _Neuroscout_ is an open source tool for analysing fMRI data. 
 
 It is maintained in a Github repository at: <https://github.com/neuroscout/neuroscout>
 
-A **swh:dir** type SWHID has been created for the Neuroscout repository, `swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817`. Doing this will also enable identification of several other elements of the repository. The swh:dir SWHID may be resolved at: <https://archive.softwareheritage.org/swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817>
+A **swh:dir** type SWHID has been created for the Neuroscout repository, `swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817`. Doing this will also enable identification of several other elements of the repository. The swh:dir SWHID may be resolved at: <https://archive.softwareheritage.org/swh:1:dir:a358fe02406a82b5e06c79e8ca6edd2b0332f817>  
+For identification of the swh:dir object with its origin, we may instead use: <https://archive.softwareheritage.org/swh:1:dir:e4d3723daa0ec83145f79c9d16a1d1db4eaeabb9;origin=https://github.com/neuroscout/neuroscout>
 
-A researcher group uses Neuroscout in their workflow and wants to identify the exact version they used in an analysis. They do this by using a SWHID identifying the specific revision used with a **swh:rev** type SWHID, in this case corresponding to a specific commit on Github, `ed79e9c` from September 2, 2022: `swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7`. This may be resolved at: <https://archive.softwareheritage.org/swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7>
+A researcher group uses Neuroscout in their workflow and wants to identify the exact version they used in an analysis. They do this by using a SWHID identifying the specific revision used with a **swh:rev** type SWHID, in this case corresponding to a specific commit on Github, `ed79e9c` from September 2, 2022: `swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7`. This may be resolved at: <https://archive.softwareheritage.org/swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7>  
+A suitably detailed SWHID reference for identification in this case should also provide the source repository origin and point-in-time snapshot as qualifiers: <https://archive.softwareheritage.org/swh:1:rev:ed79e9cf4b1ee1320a2d43c72e95f3fd3619c9b7;origin=https://github.com/neuroscout/neuroscout;visit=swh:1:snp:e5c18fce61912911a87de725150c3de8812f7730>
 
 
 ### DOI

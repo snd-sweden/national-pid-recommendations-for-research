@@ -26,7 +26,7 @@ ROR metadata includes organisation types and relationships. The [ROR schema](htt
 
 A ROR ID should normally _not_ be used to identify every internal service, platform or core facility within a larger organisation. In such cases, the parent organisation may have a ROR ID, while the specific infrastructure entity is identified with a more appropriate PID, such as an RRID for a core facility.
 
-**Example:** _National Bioinformatics Infrastructure Sweden_ has been assigned the ROR ID **00enajs79** which may be resolved at: <https://ror.org/00enajs79>
+**Example:** _National Bioinformatics Infrastructure Sweden_ has been assigned the ROR ID `00enajs79` which may be resolved at: <https://ror.org/00enajs79>
 
 ### RRID
 
@@ -38,7 +38,7 @@ RRID and ROR have overlapping but distinct scopes for facilities. RRID is useful
 
 RRIDs should not be used as a general substitute for organisation identifiers, and it should not be interpreted as a PID for all resources that a research infrastructure operates. In this context, the RRIDs are limited to core facilities and comparable infrastructure entities that are within the RRID subtype scope.
 
-**Example:** The _Lund University Cell and Gene Technologies Core Facility_ has been assigned: **RRID:SCR_028619** which may be resolved at: <https://n2t.net/RRID:SCR_028619>
+**Example:** The _Lund University Cell and Gene Technologies Core Facility_ has been assigned: `RRID:SCR_028619` which may be resolved at: <https://n2t.net/RRID:SCR_028619>
 
 ### re3data
 
@@ -50,7 +50,7 @@ A re3data record identifies and describes a research data repository. The re3dat
 
 For Swedish research infrastructures, re3data can support international discovery and policy compliance by making general and domain specific repositories visible in a global registry. The PID target is the repository record and the repository it describes, not the operator organisation, not the datasets deposited in the repository and not the entire research infrastructure if the repository is only one component of it.
 
-**Example:** The _KTH data repository_ has been assigned the repository identifier **r3d100014787** which corresponds to the re3data registry DOI: <https://doi.org/10.17616/R31NJNWJ>
+**Example:** The _KTH data repository_ has been assigned the repository identifier `r3d100014787` which corresponds to the re3data registry DOI: <https://doi.org/10.17616/R31NJNWJ>
 
 ### FAIRsharing
 
