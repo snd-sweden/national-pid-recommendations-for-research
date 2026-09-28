@@ -18,6 +18,7 @@ theme:
         - navigation.tabs
         - search.suggest
         - search.highlight
+        - navigation.indexes
 
 extra:
 #    extra.article_nav_top: false
@@ -36,6 +37,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@svensknationelldatatjanst8231
 
+extra_css:
+    - stylesheets/extra.css
+
 plugins:
     - search: {}
     - bibtex:
@@ -48,6 +52,9 @@ markdown_extensions:
         permalink: true
     - footnotes
     - attr_list
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
 
 nav:
     - "1. National PID recommendations for research": index.md
@@ -87,8 +94,30 @@ nav:
         - Licenses: landscape-analysis/licenses.md
 #        - Artefacts & finds: landscape-analysis/artefacts.md
 #        - Monuments: landscape-analysis/monuments.md
-#    - "4. Recommendations": 
-#        - recommendations/index.md
+    - "4. Recommendations": 
+        - recommendations/index.md
+        - Generic recommendations:
+            - recommendations/generic/index.md
+            - "Referencing entities with PIDs": recommendations/generic/referencing.md
+            - "Choosing PID systems and services": recommendations/generic/choosing.md
+            - "Assigning and maintaining PIDs": recommendations/generic/assigning.md
+            - "Systems and workflows": recommendations/generic/workflows.md
+            - "Organisation and sustainability": recommendations/generic/organisation.md
+        - Recommendations for national coordination:
+            - recommendations/national/index.md
+            - "Organising national coordination": recommendations/national/coordination.md
+            - "Shared priorities and requirements": recommendations/national/priorities.md
+            - "Sustainability and competence": recommendations/national/sustainability.md
+        - Scope-specific recommendations:
+            - recommendations/scope-specific/index.md
+            - "Researchers and other contributors": recommendations/scope-specific/people.md
+            - "Organisations, funders and research infrastructures": recommendations/scope-specific/organisations.md
+            - "Research activities, funding and grants": recommendations/scope-specific/activities.md
+            - "Publications and citations": recommendations/scope-specific/publications.md
+            - "Research data": recommendations/scope-specific/data.md
+            - "Research software and models": recommendations/scope-specific/software.md
+            - "Instruments and research resources": recommendations/scope-specific/resources.md
+            - "Methods, protocols and study registrations": recommendations/scope-specific/methods.md
     - "5. PID actors in Sweden":
         - pid-actors-sweden/index.md
         - Sunet: pid-actors-sweden/sunet.md

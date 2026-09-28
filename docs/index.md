@@ -4,8 +4,8 @@ The *National PID recommendations for research* is a Swedish resource for PID us
 
 It has been created to provide an overview of the PID infrastructures currently available and how they may be used by research organisations in a responsible manner, enabling a friendly, well described and interconnected open research landscape.
 
-* [PID concepts](./pid-concepts/index.md) – gives an overview of some PID-specific terminology and definitions
-* [Landscape analysis](./landscape-analysis/index.md) – explores the current landscape of PID infrastructures for objects and phenomena relating to research
-* Recommendations – suggested PID solutions for Swedish research organisations to use and/or implement
-* [PID actors in Sweden](./pid-actors-sweden/index.md) – organisations in Sweden maintaining PID systems
-* [Data on PIDs](./data-on-pids/index.md) – formal descriptions of various PID systems, including facts, references and how to get started using them
+1. [PID concepts](./pid-concepts/index.md) – gives an overview of some PID-specific terminology and definitions
+2. [Landscape analysis](./landscape-analysis/index.md) – explores the current landscape of PID infrastructures for objects and phenomena relating to research
+3. [Recommendations](./recommendations/index.md) – suggested PID solutions for Swedish research organisations to use and/or implement
+4. [PID actors in Sweden](./pid-actors-sweden/index.md) – organisations in Sweden maintaining PID systems
+5. [Data on PIDs](./data-on-pids/index.md) – formal descriptions of various PID systems, including facts, references and how to get started using them
