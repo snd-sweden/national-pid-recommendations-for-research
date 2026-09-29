@@ -60,7 +60,7 @@ OpenAlex stores citations as relations between individual works. For example, th
 
 Microsoft Academic Graph was a bibliographic database maintained by Microsoft. It was sourced from Microsoft Academic / Microsoft Academic Search metadata, including citation relations. It was actively updated from 2016 to 2021.
 
-The metadata from Microsoft Academic Graph was released under an open license and merged into OpenAlex.
+The metadata from Microsoft Academic Graph was released under an open licence and merged into OpenAlex.
 
 ### Web of Science
 

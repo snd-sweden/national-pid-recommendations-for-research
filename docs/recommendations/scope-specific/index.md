@@ -6,7 +6,7 @@ _Last updated: 2026-09-28_
 
 This section contains recommendations for specific scopes in research: kinds of digital objects, such as publications, research data and software, and phenomena represented by metadata, such as people, organisations, grants and instruments. Unlike the [generic recommendations](../generic/index.md), these recommendations point out specific PID systems and PID providers, and describe how they can be used responsibly in a Swedish context. They build on the generic recommendations, which apply to all PIDs regardless of scope, and on the [landscape analysis](../../landscape-analysis/index.md), which describes the PID systems available for each scope. Recommendations on coordinating PID usage at the national level are given in [National coordination of PID usage](../national/index.md).
 
-The recommendations use the same structure as the generic recommendations: a short statement of what is recommended, followed by **Why?**, which explains the reasons behind it, and **How?**, which gives practical guidance on implementation. Each recommendation states who it applies to, naming the actors most concerned, such as researchers, research organisations, funders, publishers, repositories and research infrastructures.
+Each recommendation states who it applies to, naming the actors most concerned, such as researchers, research organisations, funders, publishers, repositories and research infrastructures.
 
 ## How PID systems are preferred
 

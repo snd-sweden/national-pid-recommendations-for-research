@@ -8,7 +8,7 @@ PID infrastructure is shared infrastructure. Many of the benefits of PIDs, such 
 
 This section contains recommendations on coordinating PID usage at the national level. They complement the [generic recommendations](../generic/index.md), which are aimed at individual organisations, and the [scope-specific recommendations](../scope-specific/index.md) for specific scopes and PID systems.
 
-The recommendations use the same structure as the [generic recommendations](../generic/index.md): a short statement of what is recommended, followed by **Why?** and **How?**. They are aimed at two groups:
+The recommendations are aimed at two groups:
 
 - **National actors** - organisations with a national role in the research information landscape, such as coordinating agencies, policy makers, research funders, national research infrastructures, and the organisations running national consortia for PID systems.
 - **Research organisations** - higher education institutions, research institutes and other organisations that use and register PIDs, individually or through their joint bodies.

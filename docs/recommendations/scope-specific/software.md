@@ -26,7 +26,7 @@ _Applies to: researchers, research software engineers, research organisations an
     - Include machine-readable metadata in the source code repository, such as CodeMeta or a citation file, and identify licences with SPDX identifiers and their canonical URLs.
     - For machine learning models, register a DOI for each released model and link it to the training data, the code and the environment used.
 
-See also: [Research software and models](../../landscape-analysis/software-models.md) · [SWHID](../../data-on-pids/swhid.md) · [DOI](../../data-on-pids/doi.md) · [Licenses](../../landscape-analysis/licenses.md)
+See also: [Research software and models](../../landscape-analysis/software-models.md) · [SWHID](../../data-on-pids/swhid.md) · [DOI](../../data-on-pids/doi.md) · [Licences](../../landscape-analysis/licences.md)
 
 ## Identify the software used precisely
 

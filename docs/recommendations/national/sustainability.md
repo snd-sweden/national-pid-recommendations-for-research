@@ -44,7 +44,7 @@ _Applies to: research funders and research organisations._
     - As a research organisation, follow up the data publications and other outputs of affiliated researchers through their PIDs, and highlight good examples.
     - Work towards a shared national understanding of how such outputs are recognised in assessment.
 
-See also: [Research data](../../landscape-analysis/research-data.md)
+See also: [Research projects and research activities](../../landscape-analysis/projects-activities.md) · [Research data](../../landscape-analysis/research-data.md) · [Research software and models](../../landscape-analysis/software-models.md)
 
 ## Assess national dependencies and secure sustainable funding
 
@@ -62,6 +62,6 @@ _Applies to: national actors._
 
     - Carry out a national risk analysis of the PID infrastructures that Swedish research depends on, covering organisational, economic, technical and legal risks.
     - Identify the national services that are critical for registering and resolving PIDs, and make sure that they have long-term funding and continuity plans.
-    - Consider national measures for critical PIDs, such as copies of registration data held in Sweden or agreements on transferring responsibility if a service is discontinued.
+    - Consider national measures for critical PIDs, such as copies of registration metadata held in Sweden or agreements on transferring responsibility if a service is discontinued.
 
 See also: [PID actors in Sweden](../../pid-actors-sweden/index.md)
