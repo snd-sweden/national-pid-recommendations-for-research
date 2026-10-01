@@ -51,13 +51,16 @@ markdown_extensions:
     - toc:
         permalink: true
     - footnotes
+    - sane_lists
     - attr_list
     - admonition
     - pymdownx.details
     - pymdownx.superfences
 
 nav:
-    - "1. National PID recommendations for research": index.md
+    - "1. Introduction":
+        - index.md
+        - "Why PID recommendations for Sweden?": introduction/why.md
     - "2. PID concepts":
         - pid-concepts/index.md
         - What is a PID?: pid-concepts/what-is-pid.md
@@ -94,7 +97,12 @@ nav:
         - Licences: landscape-analysis/licences.md
 #        - Artefacts & finds: landscape-analysis/artefacts.md
 #        - Monuments: landscape-analysis/monuments.md
-    - "4. Recommendations": 
+    - "4. PID strategies in other countries":
+        - international/index.md
+        - International actors: international/international.md
+        - National actors: international/national.md
+        - Common themes: international/themes.md
+    - "5. Recommendations":
         - recommendations/index.md
         - Generic recommendations:
             - recommendations/generic/index.md
@@ -118,12 +126,12 @@ nav:
             - "Research software and models": recommendations/scope-specific/software.md
             - "Instruments and research resources": recommendations/scope-specific/resources.md
             - "Methods, protocols and study registrations": recommendations/scope-specific/methods.md
-    - "5. PID actors in Sweden":
+    - "6. PID actors in Sweden":
         - pid-actors-sweden/index.md
         - Sunet: pid-actors-sweden/sunet.md
         - National Library of Sweden (KB): pid-actors-sweden/kb.md
         - Swedish National Data Service (SND): pid-actors-sweden/snd.md
-    - "6. Data on PIDs":
+    - "7. Data on PIDs":
         - data-on-pids/index.md
         - ARK: data-on-pids/ark.md
         - DOI: data-on-pids/doi.md
