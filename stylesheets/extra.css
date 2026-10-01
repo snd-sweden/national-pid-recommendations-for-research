@@ -1,0 +1,57 @@
+/* `??? question` and `??? info` admonitions: change the colors here */
+:root {
+  --question-color: #649dd2;
+  --info-color: #649dd2;
+  --recommendation-color: #444455;
+}
+
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: var(--question-color);
+}
+
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary {
+  background-color: color-mix(in srgb, var(--question-color) 10%, transparent);
+}
+
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before {
+  background-color: var(--question-color);
+}
+
+/* Collapse arrow: drawn in `currentcolor`, which Material sets per type */
+.md-typeset .question > .admonition-title::after,
+.md-typeset .question > summary::after {
+  color: var(--question-color);
+}
+
+/* `??? info` admonitions */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: var(--info-color);
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: color-mix(in srgb, var(--info-color) 10%, transparent);
+}
+
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: var(--info-color);
+}
+
+.md-typeset .info > .admonition-title::after,
+.md-typeset .info > summary::after {
+  color: var(--info-color);
+}
+
+/* `!!! quote` admonitions (and collapsible `??? quote`) */
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--recommendation-color);
+}
